@@ -8,7 +8,8 @@
 
 ### ELIXIR Cloud repositories
 
-* [WES-ELIXIR](https://github.com/elixir-europe/WES-ELIXIR)
+* [proWES](https://github.com/elixir-europe/proWES) # currently still empty :(
+* [WES-ELIXIR](https://github.com/elixir-europe/WES-ELIXIR) # will be renamed to WES-CWL or something similar
 * [proTES](https://github.com/elixir-europe/proTES)
 * [TESK](https://github.com/EMBL-EBI-TSI/TESK)
 * [TEStribute](https://github.com/elixir-europe/TEStribute)
