@@ -1,8 +1,19 @@
 # ELIXIR Cloud & AAI service overview
 
-## Schematic overview
+## Synopsis
+
+List of implementations, service instances and useful references relevant to
+the ELIXIR Cloud and AAI group. See the [official
+website](https://elixir-europe.github.io/cloud/) for more information.
+
+## Interoperability scheme
 
 ![schmatic_overview](images/schematic_overview.png)
+
+> **Note:** Implementations & services shown here are just for reference and
+> include both currently unavailable (and possibly _unplanned_)
+> implementations, > as well as external ones. We are not endorsing nor are
+> we being endorsed by any external group or organization.
 
 ## Repositories
 
