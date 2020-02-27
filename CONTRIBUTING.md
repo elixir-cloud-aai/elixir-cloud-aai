@@ -119,14 +119,11 @@ is anything that you would like to work on in particular (links to issue boards
 are available and most projects should have one or more issues flagged as `good
 1st issue`); or perhaps you would like to propose an issue or even a project
 yourself?
-2. Kindly introduce yourself by sending an [email][elixir-cloud-oss-rep] to
-our representative for external contributors, who will then fill you in with
-details on internal communication channels and add you to a GitHub team.
-3. Sign up to [GitHub][github].
-4. Before you start working on your first issue, please carefully read the
+2. Sign up to [GitHub][github].
+3. Before you start working on your first issue, please carefully read the
 [contribution guidelines][contributing].
-5. Assign yourself to the issue of your choice
-6. Start coding :)
+4. Assign yourself to the issue of your choice
+5. Start coding :)
 
 [bh-ddbj]: <http://www.biohackathon.org/>
 [bh-elixir]: <https://www.biohackathon-europe.org/>
@@ -134,7 +131,6 @@ details on internal communication channels and add you to a GitHub team.
 [code-of-conduct]: CODE_OF_CONDUCT.md
 [contributing]: resources/contributing_guidelines.md
 [elixir-cloud]: <https://elixir-europe.github.io/cloud>
-[elixir-cloud-oss-rep]: <alexander.kanitz@sib.swiss>
 [elixir-cloud-projects]: resources/resources.md
 [fair]: <https://www.go-fair.org/fair-principles/>
 [ga4gh]: <https://www.ga4gh.org/>
@@ -149,3 +145,4 @@ details on internal communication channels and add you to a GitHub team.
 [osi]: <https://opensource.org/>
 [testribute]: <https://github.com/elixir-cloud-aai/TEStribute>
 [welcome-page]: README.md
+
