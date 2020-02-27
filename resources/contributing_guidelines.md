@@ -108,7 +108,7 @@ happen smoothly:
 [git]: <https://git-scm.com/>
 [git-flow]: <https://nvie.com/posts/a-successful-git-branching-model/>
 [github]: <https://github.com>
-[issue-tracker-example]: <https://github.com/elixir-cloud-aai/contributing/issues>
+[issue-tracker-example]: <https://github.com/elixir-cloud-aai/elixir-cloud-aai/issues>
 [primer-git]: git.md
 [guidelines-python]: python.md
 [travis-docs]: <https://docs.travis-ci.com/>
