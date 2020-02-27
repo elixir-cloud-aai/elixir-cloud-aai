@@ -56,8 +56,8 @@ To make it easier for everyone to maintain, read and contribute to the code,
 as well as to ensure that the code base is robust and of high quality, we
 would kindly ask you to stick to the following language-specific guidelines
 for code style and testing. If you happen to start a project in a language
-that is not listed here, please [contact us][contact] to discuss and develop
-a section for that language.
+that is not listed here, please [contact us](#communication) to discuss and
+develop a section for that language.
 
 Currently available languages:
 
@@ -102,13 +102,12 @@ happen smoothly:
 [badge-chat]: <https://img.shields.io/static/v1?label=chat&message=Slack&color=ff6994>
 [badge-url-chat]: <https://join.slack.com/t/elixir-cloud/shared_invite/enQtNzA3NTQ5Mzg2NjQ3LTZjZGI1OGQ5ZTRiOTRkY2ExMGUxNmQyODAxMDdjM2EyZDQ1YWM0ZGFjOTJhNzg5NjE0YmJiZTZhZDVhOWE4MWM>
 [ci-cd]: <https://en.wikipedia.org/wiki/Continuous_integration>
-[contact]: <alexander.kanitz@sib.swiss>
 [contributing-start]: ../CONTRIBUTING.md
 [elixir-cloud-members]: <https://elixir-europe.github.io/cloud/categories/people.html>
 [git]: <https://git-scm.com/>
 [git-flow]: <https://nvie.com/posts/a-successful-git-branching-model/>
 [github]: <https://github.com>
-[issue-tracker-example]: <https://github.com/elixir-cloud-aai/contributing/issues>
+[issue-tracker-example]: <https://github.com/elixir-cloud-aai/elixir-cloud-aai/issues>
 [primer-git]: git.md
 [guidelines-python]: python.md
 [travis-docs]: <https://docs.travis-ci.com/>
