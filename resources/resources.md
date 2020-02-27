@@ -35,7 +35,7 @@ testing purposes:
 ### Services
 
 | Name | Description | API | Status |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- |
 | [mock-DRS][mock-apps-drs] | Mock service used for [TEStribute][apps-testribute] | [GA4GH DRS][specs-ga4gh-drs] (partially implemented) | ![under development][badges-under-development] |
 | [mock-TES][mock-apps-tes] | Mock service used for [TEStribute][apps-testribute] | [Extended GA4GH TES][specs-mock-tes] | ![under development][badges-under-development] |
 
@@ -54,34 +54,34 @@ point, and abusers will be blocked.
 ### proWES
 
 | Location | Type | TLS | Auth | URL | Health |
-| --- | --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
 | [CSC][loc-csc], Finland | [OpenShift][res-openshift] | Yes | No | [API][depl-api-pro-wes-csc-openshift] / [Swagger UI][depl-ui-pro-wes-csc-openshift] | [![Status][badges-health-pro-wes-csc-openshift]][depl-ui-pro-wes-csc-openshift] |
 
 ### WES-ELIXIR
 
 | Location | Type | TLS | Auth | URL | Health |
-| --- | --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
 | [CSC][loc-csc], Finland | [Docker Compose][res-docker-compose] | No | No | [API][depl-api-wes-elixir-csc-compose] / [Swagger UI][depl-ui-wes-elixir-csc-compose] | [![Status][badges-health-wes-elixir-csc-compose]][depl-ui-wes-elixir-csc-compose] |
 | [CSC][loc-csc], Finland | [OpenShift][res-openshift] | Yes | No | [API][depl-api-wes-elixir-csc-openshift] / [Swagger UI][depl-ui-wes-elixir-csc-openshift] | [![Status][badges-health-wes-elixir-csc-openshift]][depl-ui-wes-elixir-csc-openshift] |
 
 ### proTES
 
 | Location | Type | TLS | Auth | URL | Health |
-| --- | --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
 | [CSC][loc-csc], Finland | [Docker Compose][res-docker-compose] | No | No | [API][depl-api-pro-tes-csc-compose] / [Swagger UI][depl-ui-pro-tes-csc-compose] | [![Status][badges-health-pro-tes-csc-compose]][depl-ui-pro-tes-csc-compose] |
 | [CSC][loc-csc], Finland | [OpenShift][res-openshift] | Yes | No | [API][depl-api-pro-tes-csc-openshift] / [Swagger UI][depl-ui-pro-tes-csc-openshift] | [![Status][badges-health-pro-tes-csc-openshift]][depl-ui-pro-tes-csc-openshift] |
 
 ### TEStribute
 
 | Location | Type | TLS | Auth | URL | Health |
-| --- | --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
 | [CSC][loc-csc], Finland | [Docker Compose][res-docker-compose] | No | No | [API][depl-api-testribute-csc-compose] / [Swagger UI][depl-ui-testribute-csc-compose] | [![Status][badges-health-testribute-csc-compose]][depl-ui-testribute-csc-compose] |
 | [CSC][loc-csc], Finland | [OpenShift][res-openshift] | No | No | [API][depl-api-testribute-csc-openshift] / [Swagger UI][depl-ui-testribute-csc-openshift] | [![Status][badges-health-testribute-csc-openshift]][depl-ui-testribute-csc-openshift] |
 
 ### TESK
 
 | Location | Type | TLS | Auth | URL | Health |
-| --- | --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
 | [CSC][loc-csc], Finland | [OpenShift][res-openshift] | Yes | Yes | [API][depl-api-tesk-csc-openshift] / [Swagger UI][depl-ui-tesk-csc-openshift] | [![Status][badges-health-tesk-csc-openshift]][depl-ui-tesk-csc-openshift] |
 | [CSC][loc-csc], Finland | [OpenShift][res-openshift] | Yes | No | [API][depl-api-tesk-csc-openshift-2] / [Swagger UI][depl-ui-tesk-csc-openshift-2] | [![Status][badges-health-tesk-csc-openshift-2]][depl-ui-tesk-csc-openshift-2] |
 | [EMBL-EBI][loc-ebi], UK | [Kubernetes][res-kubernetes] | Yes | No | [API][depl-api-tesk-ebi-kubernetes] / [Swagger UI][depl-ui-tesk-ebi-kubernetes] | [![Status][badges-health-tesk-ebi-kubernetes]][depl-ui-tesk-ebi-kubernetes] |
@@ -89,14 +89,14 @@ point, and abusers will be blocked.
 ### mock-DRS
 
 | Location | Type | TLS | Auth | URL | Health |
-| --- | --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
 | [CSC][loc-csc], Finland | [Docker Compose][res-docker-compose] | No | No | [API][depl-api-mock-drs-csc-compose] / [Swagger UI][depl-ui-mock-drs-csc-compose] | [![Status][badges-health-mock-drs-csc-compose]][depl-ui-mock-drs-csc-compose] |
 | [sciCORE][loc-bz], Switzerland | [Docker Compose][res-docker-compose] | No | No | [API][depl-api-mock-drs-bz-compose] / [Swagger UI][depl-ui-mock-drs-bz-compose] | [![Status][badges-health-mock-drs-bz-compose]][depl-ui-mock-drs-bz-compose] |
 
 ### mock-TES
 
 | Location | Type | TLS | Auth | URL | Health |
-| --- | --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
 | [CSC][loc-csc], Finland | [Docker Compose][res-docker-compose] | No | No | [API][depl-api-mock-tes-csc-compose] / [Swagger UI][depl-ui-mock-tes-csc-compose] | [![Status][badges-health-mock-tes-csc-compose]][depl-ui-mock-tes-csc-compose] |
 | [EMBL-EBI][loc-ebi], UK | [Kubernetes][res-kubernetes] | Yes | No | [API][depl-api-mock-tes-ebi-kubernetes] / [Swagger UI][depl-ui-mock-tes-ebi-kubernetes] | [![Status][badges-health-mock-tes-ebi-kubernetes]][depl-ui-mock-tes-ebi-kubernetes] |
 | [sciCORE][loc-bz], Switzerland | [Docker Compose][res-docker-compose] | No | No | [API][depl-api-mock-tes-bz-compose] / [Swagger UI][depl-ui-mock-tes-bz-compose] | [![Status][badges-health-mock-tes-bz-compose]][depl-ui-mock-tes-bz-compose] |
