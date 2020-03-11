@@ -4,7 +4,7 @@
 
 ## Guidelines
 
-***Section coming soon - stay tuned!***
+- [Authentication & Authorization Infrastructure (AAI)][guidelines-aai] [![release_tag][badges-aai-guidelines-release]][guidelines-aai-releases]
 
 ## Core services
 
@@ -101,6 +101,7 @@ point, and abusers will be blocked.
 | [EMBL-EBI][loc-ebi], UK | [Kubernetes][res-kubernetes] | Yes | No | [API][depl-api-mock-tes-ebi-kubernetes] / [Swagger UI][depl-ui-mock-tes-ebi-kubernetes] | [![Status][badges-health-mock-tes-ebi-kubernetes]][depl-ui-mock-tes-ebi-kubernetes] |
 | [sciCORE][loc-bz], Switzerland | [Docker Compose][res-docker-compose] | No | No | [API][depl-api-mock-tes-bz-compose] / [Swagger UI][depl-ui-mock-tes-bz-compose] | [![Status][badges-health-mock-tes-bz-compose]][depl-ui-mock-tes-bz-compose] |
 
+[badges-aai-guidelines-release]: <https://img.shields.io/github/v/tag/elixir-cloud-aai/elixir-aai-guidelines?color=C39BD3>
 [badges-drs-cli-release]: <https://img.shields.io/github/v/tag/elixir-cloud-aai/DRS-cli?color=C39BD3>
 [badges-health-mock-drs-bz-compose]: <https://img.shields.io/website?url=http%3A%2F%2F131.152.229.71%2Fga4gh%2Fdrs%2Fv1%2Fui>
 [badges-health-mock-drs-csc-compose]: <https://img.shields.io/website?url=http%3A%2F%2F193.166.24.114%2Fga4gh%2Fdrs%2Fv1%2Fui>
@@ -162,6 +163,8 @@ point, and abusers will be blocked.
 [depl-ui-testribute-csc-openshift]: <http://testribute.c03.k8s-popup.csc.fi/ui/>
 [depl-ui-wes-elixir-csc-compose]: <http://193.167.189.73:7777/ga4gh/wes/v1/ui/>
 [depl-ui-wes-elixir-csc-openshift]: <https://wes.c03.k8s-popup.csc.fi/ga4gh/wes/v1/ui/>
+[guidelines-aai]: <https://github.com/elixir-cloud-aai/elixir-aai-guidelines>
+[guidelines-aai-releases]: <https://github.com/elixir-cloud-aai/elixir-aai-guidelines/releases>
 [loc-bz]: <https://scicore.unibas.ch/>
 [loc-csc]: <https://www.csc.fi/>
 [loc-ebi]: <https://www.ebi.ac.uk/>
