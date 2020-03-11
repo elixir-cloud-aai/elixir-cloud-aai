@@ -57,7 +57,7 @@ point, and abusers will be blocked.
 | --- | --- | --- | --- | --- | --- |
 | [CSC][loc-csc], Finland | [OpenShift][res-openshift] | Yes | No | [API][depl-api-pro-wes-csc-openshift] / [Swagger UI][depl-ui-pro-wes-csc-openshift] | [![Status][badges-health-pro-wes-csc-openshift]][depl-ui-pro-wes-csc-openshift] |
 
-### 
+### WES-ELIXIR
 
 | Location | Type | TLS | Auth | URL | Health |
 | --- | --- | --- | --- | --- | --- |
