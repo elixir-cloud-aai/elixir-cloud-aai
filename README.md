@@ -52,8 +52,8 @@ international nodes.
 > implementations, as well as ones developed by independent organizations. We
 > are not endorsing nor are being endorsed by any external organization.
 
+- [cwl-WES][present-cwl-wes]
 - [TEStribute][present-testribute]
-- [WES-ELIXIR][present-wes-elixir]
 
 ## Our audience
 
@@ -168,5 +168,5 @@ actual people involved in this project, including contact information.
 [logo-elixir-cloud]: images/logo-elixir-cloud.png
 [logo-ga4gh]: images/logo-ga4gh.png
 [million-genomes]: <https://ec.europa.eu/digital-single-market/en/european-1-million-genomes-initiative>
+[present-cwl-wes]: <https://docs.google.com/presentation/d/1eEYJBzO6YaI8bREXzDIzCLkLFDqmESiDJz14ngAuiZU>
 [present-testribute]: <https://docs.google.com/presentation/d/14IJRKejeqRNU9qVfssp9ugFtuV49ZpWf18cnoZoESKo>
-[present-wes-elixir]: <https://docs.google.com/presentation/d/1eEYJBzO6YaI8bREXzDIzCLkLFDqmESiDJz14ngAuiZU>
