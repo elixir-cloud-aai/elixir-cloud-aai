@@ -103,8 +103,7 @@ point, and abusers will be blocked.
 
 [badges-aai-guidelines-release]: <https://img.shields.io/github/v/tag/elixir-cloud-aai/elixir-aai-guidelines?color=C39BD3>
 [badges-drs-cli-release]: <https://img.shields.io/github/v/tag/elixir-cloud-aai/DRS-cli?color=C39BD3>
-[badges-health-cwl-wes-csc-compose]: 
-<https://img.shields.io/website?url=http%3A%2F%2F193.167.189.73%3A7777%2Fga4gh%2Fwes%2Fv1%2Fui>
+[badges-health-cwl-wes-csc-compose]: <https://img.shields.io/website?url=http%3A%2F%2F193.167.189.73%3A7777%2Fga4gh%2Fwes%2Fv1%2Fui>
 [badges-health-cwl-wes-csc-openshift]: <https://img.shields.io/website?url=https%3A%2F%2Fwes.c03.k8s-popup.csc.fi%2Fga4gh%2Fwes%2Fv1%2Fui>
 [badges-health-mock-drs-bz-compose]: <https://img.shields.io/website?url=http%3A%2F%2F131.152.229.71%2Fga4gh%2Fdrs%2Fv1%2Fui>
 [badges-health-mock-drs-csc-compose]: <https://img.shields.io/website?url=http%3A%2F%2F193.166.24.114%2Fga4gh%2Fdrs%2Fv1%2Fui>
@@ -119,8 +118,7 @@ point, and abusers will be blocked.
 [badges-health-tesk-ebi-kubernetes]: <https://img.shields.io/website?url=https%3A%2F%2Ftes1.tsi.ebi.ac.uk%2Ftes>
 [badges-health-testribute-csc-compose]: <https://img.shields.io/website?url=http%3A%2F%2Fvm2051.kaj.pouta.csc.fi:7979%2Fui>
 [badges-health-testribute-csc-openshift]: <https://img.shields.io/website?url=http%3A%2F%2Ftestribute.c03.k8s-popup.csc.fi%2Fui>
-[badges-tes-cli-release]: 
-<https://img.shields.io/github/v/tag/elixir-cloud-aai/TES-cli?color=C39BD3>
+[badges-tes-cli-release]: <https://img.shields.io/github/v/tag/elixir-cloud-aai/TES-cli?color=C39BD3>
 [badges-testribute-release]: <https://img.shields.io/github/v/tag/elixir-cloud-aai/TEStribute?color=C39BD3>
 [badges-under-development]: <https://img.shields.io/static/v1?label=development&message=active&color=yellowgreen>
 [clients-drs-cli]: <https://github.com/elixir-cloud-aai/DRS-cli>
