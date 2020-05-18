@@ -86,7 +86,7 @@ point, and abusers will be blocked.
 | --- | --- | --- | --- | --- | --- |
 | [CSC][loc-csc], Finland | [OpenShift][res-openshift] | Yes | No | [API][depl-api-tesk-csc-openshift-2] / [Swagger UI][depl-ui-tesk-csc-openshift-2] | [![Status][badges-health-tesk-csc-openshift-2]][depl-ui-tesk-csc-openshift-2] |
 | [EMBL-EBI][loc-ebi], UK | [Kubernetes][res-kubernetes] | Yes | No | [API][depl-api-tesk-ebi-kubernetes] / [Swagger UI][depl-ui-tesk-ebi-kubernetes] | [![Status][badges-health-tesk-ebi-kubernetes]][depl-ui-tesk-ebi-kubernetes] |
-| [CERIT-SC][cerit-sc], CZ | [Kubernetes][res-kubernetes] | Yes | Yes | [API][depl-api-tesk-cerit-kubernetes] / [Swagger UI][depl-ui-tesk-cerit-kubernetes] | [![Status][badges-health-test-cerit-kubernetes]][depl-ui-tesk-cerit-kubernetes] |
+| [CERIT-SC][loc-cerit], CZ | [Kubernetes][res-kubernetes] | Yes | Yes | [API][depl-api-tesk-cerit-kubernetes] / [Swagger UI][depl-ui-tesk-cerit-kubernetes] | [![Status][badges-health-tesk-cerit-kubernetes]][depl-ui-tesk-cerit-kubernetes] |
 
 ### mock-DRS
 
@@ -116,7 +116,7 @@ point, and abusers will be blocked.
 [badges-health-pro-tes-csc-compose]: <https://img.shields.io/website?url=http%3A%2F%2F86.50.252.55:7878%2Fga4gh%2Ftes%2Fv1%2Fui>
 [badges-health-pro-tes-csc-openshift]: <https://img.shields.io/website?url=https%3A%2F%2Fprotes.c03.k8s-popup.csc.fi%2Fga4gh%2Ftes%2Fv1%2Fui>
 [badges-health-pro-wes-csc-openshift]: <https://img.shields.io/website?url=https%3A%2F%2Fprowes.c03.k8s-popup.csc.fi%2Fga4gh%2Fwes%2Fv1%2Fui>
-[badges-health-test-cerit-kubernetes]: <https://img.shields.io/website?url=https%3A%2F%2Felixir-tesk2.cerit-sc.cz%2F>
+[badges-health-tesk-cerit-kubernetes]: <https://img.shields.io/website?url=https%3A%2F%2Felixir-tesk2.cerit-sc.cz%2F>
 [badges-health-tesk-csc-openshift-2]: <https://img.shields.io/website?url=https%3A%2F%2Fcsc-tesk.c03.k8s-popup.csc.fi%2F>
 [badges-health-tesk-ebi-kubernetes]: <https://img.shields.io/website?url=https%3A%2F%2Ftes1.tsi.ebi.ac.uk%2Ftes>
 [badges-health-testribute-csc-compose]: <https://img.shields.io/website?url=http%3A%2F%2Fvm2051.kaj.pouta.csc.fi:7979%2Fui>
@@ -124,7 +124,6 @@ point, and abusers will be blocked.
 [badges-tes-cli-release]: <https://img.shields.io/github/v/tag/elixir-cloud-aai/TES-cli?color=C39BD3>
 [badges-testribute-release]: <https://img.shields.io/github/v/tag/elixir-cloud-aai/TEStribute?color=C39BD3>
 [badges-under-development]: <https://img.shields.io/static/v1?label=development&message=active&color=yellowgreen>
-[cerit-sc]: <https://www.cerit-sc.cz/>
 [clients-drs-cli]: <https://github.com/elixir-cloud-aai/DRS-cli>
 [clients-drs-cli-releases]: <https://github.com/elixir-cloud-aai/DRS-cli/releases>
 [clients-tes-cli]: <https://github.com/elixir-cloud-aai/TES-cli>
@@ -174,6 +173,7 @@ point, and abusers will be blocked.
 [loc-bz]: <https://scicore.unibas.ch/>
 [loc-csc]: <https://www.csc.fi/>
 [loc-ebi]: <https://www.ebi.ac.uk/>
+[loc-cerit]: <https://www.cerit-sc.cz/>
 [mock-apps-drs]: <https://github.com/elixir-cloud-aai/mock-DRS>
 [mock-apps-tes]: <https://github.com/elixir-cloud-aai/mock-TES>
 [res-cwl]: <https://www.commonwl.org/>
