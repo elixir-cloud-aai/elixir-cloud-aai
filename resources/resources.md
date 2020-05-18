@@ -63,6 +63,8 @@ point, and abusers will be blocked.
 | --- | --- | --- | --- | --- | --- |
 | [CSC][loc-csc], Finland | [Docker Compose][res-docker-compose] | No | No | [API][depl-api-cwl-wes-csc-compose] / [Swagger UI][depl-ui-cwl-wes-csc-compose] | [![Status][badges-health-cwl-wes-csc-compose]][depl-ui-cwl-wes-csc-compose] |
 | [CSC][loc-csc], Finland | [OpenShift][res-openshift] | Yes | No | [API][depl-api-cwl-wes-csc-openshift] / [Swagger UI][depl-ui-cwl-wes-csc-openshift] | [![Status][badges-health-cwl-wes-csc-openshift]][depl-ui-cwl-wes-csc-openshift] |
+| [CSC][loc-csc], Finland | [OpenShift][res-openshift] | Yes | Yes | [API][depl-api-cwl-wes-csc-rahti] / [Swagger UI][depl-ui-cwl-wes-csc-rahti] | [![Status][badges-health-cwl-wes-csc-rahti]][depl-ui-cwl-wes-csc-rahti] |
+
 
 ### proTES
 
@@ -82,9 +84,9 @@ point, and abusers will be blocked.
 
 | Location | Type | TLS | Auth | URL | Health |
 | --- | --- | --- | --- | --- | --- |
-| [CSC][loc-csc], Finland | [OpenShift][res-openshift] | Yes | Yes | [API][depl-api-tesk-csc-openshift] / [Swagger UI][depl-ui-tesk-csc-openshift] | [![Status][badges-health-tesk-csc-openshift]][depl-ui-tesk-csc-openshift] |
 | [CSC][loc-csc], Finland | [OpenShift][res-openshift] | Yes | No | [API][depl-api-tesk-csc-openshift-2] / [Swagger UI][depl-ui-tesk-csc-openshift-2] | [![Status][badges-health-tesk-csc-openshift-2]][depl-ui-tesk-csc-openshift-2] |
 | [EMBL-EBI][loc-ebi], UK | [Kubernetes][res-kubernetes] | Yes | No | [API][depl-api-tesk-ebi-kubernetes] / [Swagger UI][depl-ui-tesk-ebi-kubernetes] | [![Status][badges-health-tesk-ebi-kubernetes]][depl-ui-tesk-ebi-kubernetes] |
+| [CERIT-SC][loc-cerit], CZ | [Kubernetes][res-kubernetes] | Yes | Yes | [API][depl-api-tesk-cerit-kubernetes] / [Swagger UI][depl-ui-tesk-cerit-kubernetes] | [![Status][badges-health-tesk-cerit-kubernetes]][depl-ui-tesk-cerit-kubernetes] |
 
 ### mock-DRS
 
@@ -105,6 +107,7 @@ point, and abusers will be blocked.
 [badges-drs-cli-release]: <https://img.shields.io/github/v/tag/elixir-cloud-aai/DRS-cli?color=C39BD3>
 [badges-health-cwl-wes-csc-compose]: <https://img.shields.io/website?url=http%3A%2F%2F193.167.189.73%3A7777%2Fga4gh%2Fwes%2Fv1%2Fui>
 [badges-health-cwl-wes-csc-openshift]: <https://img.shields.io/website?url=https%3A%2F%2Fwes.c03.k8s-popup.csc.fi%2Fga4gh%2Fwes%2Fv1%2Fui>
+[badges-health-cwl-wes-csc-rahti]: <https://img.shields.io/website?url=https%3A%2F%2Fcsc-wes.rahtiapp.fi%2Fga4gh%2Fwes%2Fv1%2Fui%2F>
 [badges-health-mock-drs-bz-compose]: <https://img.shields.io/website?url=http%3A%2F%2F131.152.229.71%2Fga4gh%2Fdrs%2Fv1%2Fui>
 [badges-health-mock-drs-csc-compose]: <https://img.shields.io/website?url=http%3A%2F%2F193.166.24.114%2Fga4gh%2Fdrs%2Fv1%2Fui>
 [badges-health-mock-tes-bz-compose]: <https://img.shields.io/website?url=http%3A%2F%2F131.152.229.70%2Fga4gh%2Ftes%2Fv1%2Fui>
@@ -113,7 +116,7 @@ point, and abusers will be blocked.
 [badges-health-pro-tes-csc-compose]: <https://img.shields.io/website?url=http%3A%2F%2F86.50.252.55:7878%2Fga4gh%2Ftes%2Fv1%2Fui>
 [badges-health-pro-tes-csc-openshift]: <https://img.shields.io/website?url=https%3A%2F%2Fprotes.c03.k8s-popup.csc.fi%2Fga4gh%2Ftes%2Fv1%2Fui>
 [badges-health-pro-wes-csc-openshift]: <https://img.shields.io/website?url=https%3A%2F%2Fprowes.c03.k8s-popup.csc.fi%2Fga4gh%2Fwes%2Fv1%2Fui>
-[badges-health-tesk-csc-openshift]: <https://img.shields.io/website?url=https%3A%2F%2Ftesk.c01.k8s-popup.csc.fi%2F>
+[badges-health-tesk-cerit-kubernetes]: <https://img.shields.io/website?url=https%3A%2F%2Felixir-tesk2.cerit-sc.cz%2F>
 [badges-health-tesk-csc-openshift-2]: <https://img.shields.io/website?url=https%3A%2F%2Fcsc-tesk.c03.k8s-popup.csc.fi%2F>
 [badges-health-tesk-ebi-kubernetes]: <https://img.shields.io/website?url=https%3A%2F%2Ftes1.tsi.ebi.ac.uk%2Ftes>
 [badges-health-testribute-csc-compose]: <https://img.shields.io/website?url=http%3A%2F%2Fvm2051.kaj.pouta.csc.fi:7979%2Fui>
@@ -135,6 +138,7 @@ point, and abusers will be blocked.
 [apps-testribute-releases]: <https://github.com/elixir-cloud-aai/TEStribute/releases>
 [depl-api-cwl-wes-csc-compose]: <http://193.167.189.73:7777/ga4gh/wes/v1/>
 [depl-api-cwl-wes-csc-openshift]: <https://wes.c03.k8s-popup.csc.fi/ga4gh/wes/v1/>
+[depl-api-cwl-wes-csc-rahti]: <https://csc-wes.rahtiapp.fi/ga4gh/wes/v1/>
 [depl-api-mock-drs-bz-compose]: <http://131.152.229.71/ga4gh/drs/v1/>
 [depl-api-mock-drs-csc-compose]: <http://193.166.24.114/ga4gh/drs/v1/>
 [depl-api-mock-tes-bz-compose]: <http://131.152.229.70/ga4gh/tes/v1/>
@@ -143,13 +147,14 @@ point, and abusers will be blocked.
 [depl-api-pro-tes-csc-compose]: <http://86.50.252.55:7878/ga4gh/tes/v1/>
 [depl-api-pro-tes-csc-openshift]: <https://protes.c03.k8s-popup.csc.fi/ga4gh/tes/v1/>
 [depl-api-pro-wes-csc-openshift]: <https://prowes.c03.k8s-popup.csc.fi/ga4gh/wes/v1/>
-[depl-api-tesk-csc-openshift]: <https://tesk.c01.k8s-popup.csc.fi/>
+[depl-api-tesk-cerit-kubernetes]: <https://elixir-tesk2.cerit-sc.cz/>
 [depl-api-tesk-csc-openshift-2]: <https://csc-tesk.c03.k8s-popup.csc.fi/>
 [depl-api-tesk-ebi-kubernetes]: <https://tes1.tsi.ebi.ac.uk/tes>
 [depl-api-testribute-csc-compose]: <http://vm2051.kaj.pouta.csc.fi:7979/>
 [depl-api-testribute-csc-openshift]: <http://testribute.c03.k8s-popup.csc.fi/>
 [depl-ui-cwl-wes-csc-compose]: <http://193.167.189.73:7777/ga4gh/wes/v1/ui/>
 [depl-ui-cwl-wes-csc-openshift]: <https://wes.c03.k8s-popup.csc.fi/ga4gh/wes/v1/ui/>
+[depl-ui-cwl-wes-csc-rahti]: <https://csc-wes.rahtiapp.fi/ga4gh/wes/v1/ui/>
 [depl-ui-mock-drs-bz-compose]: <http://131.152.229.71/ga4gh/drs/v1/ui/>
 [depl-ui-mock-drs-csc-compose]: <http://193.166.24.114/ga4gh/drs/v1/ui/>
 [depl-ui-mock-tes-bz-compose]: <http://131.152.229.70/ga4gh/tes/v1/ui/>
@@ -158,7 +163,7 @@ point, and abusers will be blocked.
 [depl-ui-pro-tes-csc-compose]: <http://86.50.252.55:7878/ga4gh/tes/v1/ui/>
 [depl-ui-pro-tes-csc-openshift]: <https://protes.c03.k8s-popup.csc.fi/ga4gh/tes/v1/ui/>
 [depl-ui-pro-wes-csc-openshift]: <https://prowes.c03.k8s-popup.csc.fi/ga4gh/wes/v1/ui/>
-[depl-ui-tesk-csc-openshift]: <https://tesk.c01.k8s-popup.csc.fi/>
+[depl-ui-tesk-cerit-kubernetes]: <https://elixir-tesk2.cerit-sc.cz/>
 [depl-ui-tesk-csc-openshift-2]: <https://csc-tesk.c03.k8s-popup.csc.fi/>
 [depl-ui-tesk-ebi-kubernetes]: <https://tes1.tsi.ebi.ac.uk/tes>
 [depl-ui-testribute-csc-compose]: <http://vm2051.kaj.pouta.csc.fi:7979/ui/>
@@ -168,6 +173,7 @@ point, and abusers will be blocked.
 [loc-bz]: <https://scicore.unibas.ch/>
 [loc-csc]: <https://www.csc.fi/>
 [loc-ebi]: <https://www.ebi.ac.uk/>
+[loc-cerit]: <https://www.cerit-sc.cz/>
 [mock-apps-drs]: <https://github.com/elixir-cloud-aai/mock-DRS>
 [mock-apps-tes]: <https://github.com/elixir-cloud-aai/mock-TES>
 [res-cwl]: <https://www.commonwl.org/>
