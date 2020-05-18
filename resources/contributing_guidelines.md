@@ -4,9 +4,9 @@
 
 ## General workflow
 
-Across all projects, we are using [Git][git], [GitHub][github] and
-[Git Flow][git-flow]. A primer on the use of these tools within our
-organization is [provided][primer-git].
+Across all projects, we are using [Git][git], [GitHub][github] and [Git
+Flow][git-flow]. A primer on the use of these tools within our organization
+is [provided][primer-git].
 
 ## Issue tracker
 
@@ -63,6 +63,43 @@ Currently available languages:
 
 - [Python][guidelines-python]
 
+## Commit messages
+
+It is recommended that you use _semantic commit messages_, as described in the
+[Conventional Commits specification][conv-commits], in an effort to increase
+consistency, simplify maintenance and enable automated change logs.
+
+The general structure of _Conventional Commits_ is as follows:
+
+```console
+<type>[optional scope]: <description>
+
+[optional body]
+
+[optional footer]
+```
+
+Depending on the changes, we recommend to use one of the following **type**
+prefixes:
+
+| Type | Description |
+| --- | --- |
+| build | The build type (formerly known as chore) is used to identify development changes related to the build system (involving scripts, configurations or tools) and package dependencies.  |
+| ci | The ci type is used to identify development changes related to the continuous integration and deployment system - involving scripts, configurations or tools. |
+| docs | The docs type is used to identify documentation changes related to the project - whether intended externally for the end users (in case of a library) or internally for the developers. |
+| feat | The feat type is used to identify production changes related to new backward-compatible abilities or functionality. |
+| fix | The fix type is used to identify production changes related to backward-compatible bug fixes. |
+| perf | The perf type is used to identify production changes related to backward-compatible performance improvements. |
+| refactor | The refactor type is used to identify development changes related to modifying the codebase, which neither adds a feature nor fixes a bug - such as removing redundant code, simplifying the code, renaming variables, etc. |
+| revert | For commits that revert one or more previous commits. |
+| style | The style type is used to identify development changes related to styling the codebase, regardless of the meaning - such as indentations, semi-colons, quotes, trailing commas and so on. |
+| test | The test type is used to identify development changes related to tests - such as refactoring existing tests or adding new tests. |
+
+In order to ensure that the format of your commit messages adheres to the
+Conventional Commits specification and the defined type vocabulary, you can
+use a [dedicated linter][conv-commits-lint]. More information can also be found
+in this [blog post][conv-commits-blog].
+
 ## Merging your code
 
 Here is a check list that you can follow to make sure that code merges
@@ -103,6 +140,9 @@ happen smoothly:
 [badge-url-chat]: <https://join.slack.com/t/elixir-cloud/shared_invite/enQtNzA3NTQ5Mzg2NjQ3LTZjZGI1OGQ5ZTRiOTRkY2ExMGUxNmQyODAxMDdjM2EyZDQ1YWM0ZGFjOTJhNzg5NjE0YmJiZTZhZDVhOWE4MWM>
 [ci-cd]: <https://en.wikipedia.org/wiki/Continuous_integration>
 [contributing-start]: ../CONTRIBUTING.md
+[conv-commits]: <https://www.conventionalcommits.org/en/v1.0.0-beta.2/#specification>
+[conv-commits-blog]: <https://nitayneeman.com/posts/understanding-semantic-commit-messages-using-git-and-angular/>
+[conv-commits-lint]: <https://github.com/conventional-changelog/commitlint>
 [elixir-cloud-members]: <https://elixir-europe.github.io/cloud/categories/people.html>
 [git]: <https://git-scm.com/>
 [git-flow]: <https://nvie.com/posts/a-successful-git-branching-model/>
