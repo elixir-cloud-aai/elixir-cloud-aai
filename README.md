@@ -52,10 +52,11 @@ international nodes.
 > implementations, as well as ones developed by independent organizations. We
 > are not endorsing nor are being endorsed by any external organization.
 
-- [**CWLab**][repo-cwlab] (**working title**): a web portal operationalizing
-  the [GA4GH Cloud Work Stream][ga4gh-cloud-ws] for the end user, currently
-  supporting workflows written in the [Common Workflow Language][cwl] (CWL),
-  but with various other workflow languages on the roadmap  
+- [**CWLab**][repo-cwlab] (**working title**; [slides][present-cwlab]): a web
+  portal operationalizing the [GA4GH Cloud Work Stream][ga4gh-cloud-ws] for the
+  end user, currently supporting workflows written in the [Common Workflow
+  Language][cwl] (CWL), but with various other workflow languages on the
+  roadmap
 - [**cwl-WES**][repo-cwl-wes] ([slides][present-cwl-wes]): a [GA4GH Workflow
   Execution Service][ga4gh-wes] implementation for interpreting and
   decomposing [CWL][cwl] workflows into individual tasks which are then
@@ -191,10 +192,10 @@ actual people involved in this project, including contact information.
 [logo-ga4gh]: images/logo-ga4gh.png
 [million-genomes]: <https://ec.europa.eu/digital-single-market/en/european-1-million-genomes-initiative>
 [present-cwl-wes]: <https://docs.google.com/presentation/d/1eEYJBzO6YaI8bREXzDIzCLkLFDqmESiDJz14ngAuiZU>
-[present-cwlab]: <>
+[present-cwlab]: <https://docs.google.com/presentation/d/14_yujGiU7hAitsXXQNmYYjQq1taeJ407NZOhCELTp2o/edit?usp=sharing>
 [present-tesk]: <>
 [present-testribute]: <https://docs.google.com/presentation/d/14IJRKejeqRNU9qVfssp9ugFtuV49ZpWf18cnoZoESKo>
-[repo-cwlab]: <https://github.com/CompEpigen/CWLa://github.com/CompEpigen/CWLab>
+[repo-cwlab]: <https://github.com/CompEpigen/CWLab>
 [repo-cwl-wes]: <https://github.com/elixir-cloud-aai/cwl-WES>
 [repo-tesk]: <https://github.com/EMBL-EBI-TSI/TESK>
 [repo-testribute]: <https://github.com/elixir-cloud-aai/TEStribute>
