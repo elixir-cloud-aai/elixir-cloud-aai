@@ -57,8 +57,8 @@ point, and abusers will be blocked.
 | Location | Type | TLS | Auth | URL | Health |
 | --- | --- | --- | --- | --- | --- |
 | [DKFZ][loc-dkfz], Germany | Master | Yes | Yes | [UI][depl-ui-cwlab-dkfz-master] | [![Status][badges-health-cwlab-master]][depl-ui-cwlab-dkfz-master] |
-| [DKFZ][loc-dkfz], Germany | Development | Yes | Yes | [UI][depl-ui-cwlab-dkfz-dev] | [![Status][badges-health-cwlab-master]][depl-ui-cwlab-dkfz-dev] |
-| [DKFZ][loc-dkfz], Germany | Testing | Yes | Yes | [UI][depl-ui-cwlab-dkfz-test] | [![Status][badges-health-cwlab-master]][depl-ui-cwlab-dkfz-test] |
+| [DKFZ][loc-dkfz], Germany | Development | Yes | Yes | [UI][depl-ui-cwlab-dkfz-dev] | [![Status][badges-health-cwlab-dev]][depl-ui-cwlab-dkfz-dev] |
+| [DKFZ][loc-dkfz], Germany | Testing | Yes | Yes | [UI][depl-ui-cwlab-dkfz-test] | [![Status][badges-health-cwlab-test]][depl-ui-cwlab-dkfz-test] |
 
 ### proWES
 
