@@ -52,8 +52,20 @@ international nodes.
 > implementations, as well as ones developed by independent organizations. We
 > are not endorsing nor are being endorsed by any external organization.
 
-- [cwl-WES][present-cwl-wes]
-- [TEStribute][present-testribute]
+- [**CWLab**][repo-cwlab] (**working title**): a web portal operationalizing
+  the [GA4GH Cloud Work Stream][ga4gh-cloud-ws] for the end user, currently
+  supporting workflows written in the [Common Workflow Language][cwl] (CWL),
+  but with various other workflow languages on the roadmap  
+- [**cwl-WES**][repo-cwl-wes] ([slides][present-cwl-wes]): a [GA4GH Workflow
+  Execution Service][ga4gh-wes] implementation for interpreting and
+  decomposing [CWL][cwl] workflows into individual tasks which are then
+  forwarded to a [GA4GH Task Execution Service][ga4gh-tes]-compatible service
+  for execution
+- [**TESK**][repo-tesk]: a [GA4GH Task Execution Service][ga4gh-tes]
+  implentation for [Kubernetes][kube]
+- [**TEStribute**][repo-testribute] ([slides][present-testribute]): task
+  distribution logic for extended [GA4GH Task Execution Service][ga4gh-tes]
+  instances
 
 ## Our audience
 
@@ -83,7 +95,7 @@ discuss how you can be among the first to make use of our products!
   of it?
 - Tired of collecting metadata about your data and analyses? Our products help
   in digitizing and, to some extent, automating a lot of this work!
-  
+
 ### Workflow engine developers
 
 - You would like to write a new workflow engine but are scared of having to
@@ -113,7 +125,7 @@ discuss how you can be among the first to make use of our products!
 
 ***Section coming soon!***
 
-## Projects we support
+## Supported projects
 
 We provide services and technical support for the following projects and
 initiatives, which in turn test our products and drive future development.
@@ -130,7 +142,11 @@ Apart from the [GA4GH Cloud][ga4gh-cloud-ws] community as a whole, we are
 working together closely with the following projects that develop similar
 services:
 
-- [SAPPORO][collab-sapporo] project at [DNA Databank of Japan (DDBJ)][loc-ddbj], Japan
+- [WES2Galaxy][collab-galaxy-wes]: thin [GA4GH Workflow Execution
+  Service][ga4gh-wes] layer for the [Galaxy Project][galaxy]
+- [SAPPORO][collab-sapporo]: web portal for [GA4GH Workflow Execution
+  Service][ga4gh-wes]-based execution of workflows for the analysis of
+  sensitive data hosted at the [DNA Databank of Japan (DDBJ)][loc-ddbj], Japan
 
 ## Contact
 
@@ -146,8 +162,10 @@ actual people involved in this project, including contact information.
 [button-contribute]: images/button-contribute.png
 [button-resources]: images/button-resources.png
 [cloud-computing]: <https://en.wikipedia.org/wiki/Cloud_computing>
+[collab-galaxy-wes]: <https://github.com/bedroesb/WES2Galaxy>
 [collab-sapporo]: <https://github.com/ddbj/SAPPORO>
 [contributing]: CONTRIBUTING.md
+[cwl]: <https://www.commonwl.org/>
 [elixir]: <https://elixir-europe.org/>
 [elixir-cloud]: <https://elixir-europe.github.io/cloud>
 [elixir-cloud-members]: <https://elixir-europe.github.io/cloud/categories/people.html>
@@ -162,11 +180,21 @@ actual people involved in this project, including contact information.
 [ga4gh-duri-ws]: <https://www.ga4gh.org/work_stream/data-use-researcher-identities-duri-2/>
 [ga4gh-elixir]: <https://elixir-europe.org/news/elixir-and-ga4gh-expand-collaboration>
 [ga4gh-roadmap]: <https://www.ga4gh.org/how-we-work/strategic-roadmap/>
+[ga4gh-tes]: <https://github.com/ga4gh/task-execution-schemas>
+[ga4gh-wes]: <https://github.com/ga4gh/workflow-execution-service-schemas>
 [ga4gh-work-streams]: <https://www.ga4gh.org/how-we-work/workstreams/>
+[galaxy]: <https://usegalaxy.org/>
+[kube]: <https://kubernetes.io/>
 [loc-ddbj]: <https://www.ddbj.nig.ac.jp/index-e.html>
 [logo-elixir]: images/logo-elixir.png
 [logo-elixir-cloud]: images/logo-elixir-cloud.png
 [logo-ga4gh]: images/logo-ga4gh.png
 [million-genomes]: <https://ec.europa.eu/digital-single-market/en/european-1-million-genomes-initiative>
 [present-cwl-wes]: <https://docs.google.com/presentation/d/1eEYJBzO6YaI8bREXzDIzCLkLFDqmESiDJz14ngAuiZU>
+[present-cwlab]: <>
+[present-tesk]: <>
 [present-testribute]: <https://docs.google.com/presentation/d/14IJRKejeqRNU9qVfssp9ugFtuV49ZpWf18cnoZoESKo>
+[repo-cwlab]: <https://github.com/CompEpigen/CWLa://github.com/CompEpigen/CWLab>
+[repo-cwl-wes]: <https://github.com/elixir-cloud-aai/cwl-WES>
+[repo-tesk]: <https://github.com/EMBL-EBI-TSI/TESK>
+[repo-testribute]: <https://github.com/elixir-cloud-aai/TEStribute>
