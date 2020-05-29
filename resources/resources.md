@@ -12,6 +12,7 @@ The following services collectively constitute the core efforts of our team:
 
 | Name | Description | Server-side APIs | Client-side APIs | Status |
 | --- | --- | --- | --- | --- |
+| [CWLab][apps-cwlab] | Web portal | Custom | [GA4GH WES][specs-ga4gh-wes] | [![release_tag][badges-cwlab-release]][apps-cwlab-releases] |
 | [proWES][apps-pro-wes] | Gateway for workflows | [GA4GH WES][specs-ga4gh-wes] | [GA4GH WES][specs-ga4gh-wes] | ![under development][badges-under-development] |
 | [cwl-WES][apps-cwl-wes] | Run [CWL][res-cwl] workflows | [GA4GH WES][specs-ga4gh-wes] | [GA4GH TES][specs-ga4gh-tes] | ![under development][badges-under-development] |
 | [proTES][apps-pro-tes] | Gateway for tasks | [GA4GH WES][specs-ga4gh-tes] | [GA4GH TES][specs-ga4gh-tes] | ![under development][badges-under-development] |
@@ -51,6 +52,14 @@ point, and abusers will be blocked.
 > disabled. However, this may change at any point, without notice and
 > regardless of the value set in field "Auth" in the lists below.
 
+### CWLab
+
+| Location | Type | TLS | Auth | URL | Health |
+| --- | --- | --- | --- | --- | --- |
+| [DKFZ][loc-dkfz], Germany | Master | Yes | Yes | [UI][depl-ui-cwlab-dkfz-master] | [![Status][badges-health-cwlab-master]][depl-ui-cwlab-dkfz-master] |
+| [DKFZ][loc-dkfz], Germany | Development | Yes | Yes | [UI][depl-ui-cwlab-dkfz-dev] | [![Status][badges-health-cwlab-master]][depl-ui-cwlab-dkfz-dev] |
+| [DKFZ][loc-dkfz], Germany | Testing | Yes | Yes | [UI][depl-ui-cwlab-dkfz-test] | [![Status][badges-health-cwlab-master]][depl-ui-cwlab-dkfz-test] |
+
 ### proWES
 
 | Location | Type | TLS | Auth | URL | Health |
@@ -64,7 +73,6 @@ point, and abusers will be blocked.
 | [CSC][loc-csc], Finland | [Docker Compose][res-docker-compose] | No | No | [API][depl-api-cwl-wes-csc-compose] / [Swagger UI][depl-ui-cwl-wes-csc-compose] | [![Status][badges-health-cwl-wes-csc-compose]][depl-ui-cwl-wes-csc-compose] |
 | [CSC][loc-csc], Finland | [OpenShift][res-openshift] | Yes | No | [API][depl-api-cwl-wes-csc-openshift] / [Swagger UI][depl-ui-cwl-wes-csc-openshift] | [![Status][badges-health-cwl-wes-csc-openshift]][depl-ui-cwl-wes-csc-openshift] |
 | [CSC][loc-csc], Finland | [OpenShift][res-openshift] | Yes | Yes | [API][depl-api-cwl-wes-csc-rahti] / [Swagger UI][depl-ui-cwl-wes-csc-rahti] | [![Status][badges-health-cwl-wes-csc-rahti]][depl-ui-cwl-wes-csc-rahti] |
-
 
 ### proTES
 
@@ -103,11 +111,23 @@ point, and abusers will be blocked.
 | [EMBL-EBI][loc-ebi], UK | [Kubernetes][res-kubernetes] | Yes | No | [API][depl-api-mock-tes-ebi-kubernetes] / [Swagger UI][depl-ui-mock-tes-ebi-kubernetes] | [![Status][badges-health-mock-tes-ebi-kubernetes]][depl-ui-mock-tes-ebi-kubernetes] |
 | [sciCORE][loc-bz], Switzerland | [Docker Compose][res-docker-compose] | No | No | [API][depl-api-mock-tes-bz-compose] / [Swagger UI][depl-ui-mock-tes-bz-compose] | [![Status][badges-health-mock-tes-bz-compose]][depl-ui-mock-tes-bz-compose] |
 
+[apps-cwlab]: <https://github.com/CompEpigen/CWLab>
+[apps-cwlab-releases]: <https://github.com/CompEpigen/CWLab/releases>
+[apps-cwl-wes]: <https://github.com/elixir-cloud-aai/cwl-WES>
+[apps-pro-tes]: <https://github.com/elixir-cloud-aai/proTES>
+[apps-pro-wes]: <https://github.com/elixir-cloud-aai/proWES>
+[apps-tesk]: <https://github.com/EMBL-EBI-TSI/TESK>
+[apps-testribute]: <https://github.com/elixir-cloud-aai/TEStribute>
+[apps-testribute-releases]: <https://github.com/elixir-cloud-aai/TEStribute/releases>
 [badges-aai-guidelines-release]: <https://img.shields.io/github/v/tag/elixir-cloud-aai/elixir-aai-guidelines?color=C39BD3>
+[badges-cwlab-release]: <https://img.shields.io/github/v/tag/CompEpigen/CWLab?color=C39BD3>
 [badges-drs-cli-release]: <https://img.shields.io/github/v/tag/elixir-cloud-aai/DRS-cli?color=C39BD3>
 [badges-health-cwl-wes-csc-compose]: <https://img.shields.io/website?url=http%3A%2F%2F193.167.189.73%3A7777%2Fga4gh%2Fwes%2Fv1%2Fui>
 [badges-health-cwl-wes-csc-openshift]: <https://img.shields.io/website?url=https%3A%2F%2Fwes.c03.k8s-popup.csc.fi%2Fga4gh%2Fwes%2Fv1%2Fui>
 [badges-health-cwl-wes-csc-rahti]: <https://img.shields.io/website?url=https%3A%2F%2Fcsc-wes.rahtiapp.fi%2Fga4gh%2Fwes%2Fv1%2Fui%2F>
+[badges-health-cwlab-dev]: <https://img.shields.io/website?url=https%3A%2F%2Fcwlab.dev.krini.ingress.rancher.computational.bio%2F>
+[badges-health-cwlab-master]: <https://img.shields.io/website?url=https%3A%2F%2Fcwlab.krini.ingress.rancher.computational.bio%2F>
+[badges-health-cwlab-test]: <https://img.shields.io/website?url=https%3A%2F%2Fcwlab.testing.krini.ingress.rancher.computational.bio%2F>
 [badges-health-mock-drs-bz-compose]: <https://img.shields.io/website?url=http%3A%2F%2F131.152.229.71%2Fga4gh%2Fdrs%2Fv1%2Fui>
 [badges-health-mock-drs-csc-compose]: <https://img.shields.io/website?url=http%3A%2F%2F193.166.24.114%2Fga4gh%2Fdrs%2Fv1%2Fui>
 [badges-health-mock-tes-bz-compose]: <https://img.shields.io/website?url=http%3A%2F%2F131.152.229.70%2Fga4gh%2Ftes%2Fv1%2Fui>
@@ -129,13 +149,6 @@ point, and abusers will be blocked.
 [clients-tes-cli]: <https://github.com/elixir-cloud-aai/TES-cli>
 [clients-tes-cli-releases]: <https://github.com/elixir-cloud-aai/TES-cli/releases>
 [clients-wes-cli]: <https://github.com/elixir-cloud-aai/WES-cli>
-[elixir-aai]: <https://elixir-europe.org/services/compute/aai>
-[apps-cwl-wes]: <https://github.com/elixir-cloud-aai/cwl-WES>
-[apps-pro-tes]: <https://github.com/elixir-cloud-aai/proTES>
-[apps-pro-wes]: <https://github.com/elixir-cloud-aai/proWES>
-[apps-tesk]: <https://github.com/EMBL-EBI-TSI/TESK>
-[apps-testribute]: <https://github.com/elixir-cloud-aai/TEStribute>
-[apps-testribute-releases]: <https://github.com/elixir-cloud-aai/TEStribute/releases>
 [depl-api-cwl-wes-csc-compose]: <http://193.167.189.73:7777/ga4gh/wes/v1/>
 [depl-api-cwl-wes-csc-openshift]: <https://wes.c03.k8s-popup.csc.fi/ga4gh/wes/v1/>
 [depl-api-cwl-wes-csc-rahti]: <https://csc-wes.rahtiapp.fi/ga4gh/wes/v1/>
@@ -155,6 +168,9 @@ point, and abusers will be blocked.
 [depl-ui-cwl-wes-csc-compose]: <http://193.167.189.73:7777/ga4gh/wes/v1/ui/>
 [depl-ui-cwl-wes-csc-openshift]: <https://wes.c03.k8s-popup.csc.fi/ga4gh/wes/v1/ui/>
 [depl-ui-cwl-wes-csc-rahti]: <https://csc-wes.rahtiapp.fi/ga4gh/wes/v1/ui/>
+[depl-ui-cwlab-dkfz-dev]: <https://cwlab.dev.krini.ingress.rancher.computational.bio/>
+[depl-ui-cwlab-dkfz-master]: <https://cwlab.krini.ingress.rancher.computational.bio/>
+[depl-ui-cwlab-dkfz-test]: <https://cwlab.testing.krini.ingress.rancher.computational.bio/>
 [depl-ui-mock-drs-bz-compose]: <http://131.152.229.71/ga4gh/drs/v1/ui/>
 [depl-ui-mock-drs-csc-compose]: <http://193.166.24.114/ga4gh/drs/v1/ui/>
 [depl-ui-mock-tes-bz-compose]: <http://131.152.229.70/ga4gh/tes/v1/ui/>
@@ -168,10 +184,12 @@ point, and abusers will be blocked.
 [depl-ui-tesk-ebi-kubernetes]: <https://tes1.tsi.ebi.ac.uk/tes>
 [depl-ui-testribute-csc-compose]: <http://vm2051.kaj.pouta.csc.fi:7979/ui/>
 [depl-ui-testribute-csc-openshift]: <http://testribute.c03.k8s-popup.csc.fi/ui/>
+[elixir-aai]: <https://elixir-europe.org/services/compute/aai>
 [guidelines-aai]: <https://github.com/elixir-cloud-aai/elixir-aai-guidelines>
 [guidelines-aai-releases]: <https://github.com/elixir-cloud-aai/elixir-aai-guidelines/releases>
 [loc-bz]: <https://scicore.unibas.ch/>
 [loc-csc]: <https://www.csc.fi/>
+[loc-dkfz]: <https://www.dkfz.de/en/index.html>
 [loc-ebi]: <https://www.ebi.ac.uk/>
 [loc-cerit]: <https://www.cerit-sc.cz/>
 [mock-apps-drs]: <https://github.com/elixir-cloud-aai/mock-DRS>
