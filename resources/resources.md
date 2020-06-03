@@ -17,7 +17,7 @@ The following services collectively constitute the core efforts of our team:
 | [cwl-WES][apps-cwl-wes] | Run [CWL][res-cwl] workflows | [GA4GH WES][specs-ga4gh-wes] | [GA4GH TES][specs-ga4gh-tes] | ![under development][badges-under-development] |
 | [proTES][apps-pro-tes] | Gateway for tasks | [GA4GH WES][specs-ga4gh-tes] | [GA4GH TES][specs-ga4gh-tes] | ![under development][badges-under-development] |
 | [TEStribute][apps-testribute] | Task distribution middleware | [Custom][specs-testribute] | [GA4GH TES][specs-ga4gh-wes] | [![release_tag][badges-testribute-release]][apps-testribute-releases] |
-| [TESK][apps-tesk] | Execute tasks on [Kubernetes][res-kubernetes] | [GA4GH TES][specs-ga4gh-tes] | N/A | ![under development][badges-under-development] |
+| [TESK][apps-tesk] | Execute tasks on [Kubernetes][res-kubernetes] | [GA4GH TES][specs-ga4gh-tes] | N/A | [![release_tag][badges-tesk-release]][apps-tesk-releases] |
 
 ## Utilities
 
@@ -117,11 +117,13 @@ point, and abusers will be blocked.
 [apps-pro-tes]: <https://github.com/elixir-cloud-aai/proTES>
 [apps-pro-wes]: <https://github.com/elixir-cloud-aai/proWES>
 [apps-tesk]: <https://github.com/EMBL-EBI-TSI/TESK>
+[apps-tesk-releases]: <https://github.com/EMBL-EBI-TSI/tesk-api/releases>
 [apps-testribute]: <https://github.com/elixir-cloud-aai/TEStribute>
 [apps-testribute-releases]: <https://github.com/elixir-cloud-aai/TEStribute/releases>
 [badges-aai-guidelines-release]: <https://img.shields.io/github/v/tag/elixir-cloud-aai/elixir-aai-guidelines?color=C39BD3>
 [badges-cwlab-release]: <https://img.shields.io/github/v/tag/CompEpigen/CWLab?color=C39BD3>
 [badges-drs-cli-release]: <https://img.shields.io/github/v/tag/elixir-cloud-aai/DRS-cli?color=C39BD3>
+[badges-tesk-release]: <https://img.shields.io/github/v/tag/EMBL-EBI-TSI/tesk-api?color=C39BD3>
 [badges-health-cwl-wes-csc-compose]: <https://img.shields.io/website?url=http%3A%2F%2F193.167.189.73%3A7777%2Fga4gh%2Fwes%2Fv1%2Fui>
 [badges-health-cwl-wes-csc-openshift]: <https://img.shields.io/website?url=https%3A%2F%2Fwes.c03.k8s-popup.csc.fi%2Fga4gh%2Fwes%2Fv1%2Fui>
 [badges-health-cwl-wes-csc-rahti]: <https://img.shields.io/website?url=https%3A%2F%2Fcsc-wes.rahtiapp.fi%2Fga4gh%2Fwes%2Fv1%2Fui%2F>
@@ -138,7 +140,7 @@ point, and abusers will be blocked.
 [badges-health-pro-wes-csc-openshift]: <https://img.shields.io/website?url=https%3A%2F%2Fprowes.c03.k8s-popup.csc.fi%2Fga4gh%2Fwes%2Fv1%2Fui>
 [badges-health-tesk-cerit-kubernetes]: <https://img.shields.io/website?url=https%3A%2F%2Felixir-tesk2.cerit-sc.cz%2F>
 [badges-health-tesk-csc-openshift-2]: <https://img.shields.io/website?url=https%3A%2F%2Fcsc-tesk.c03.k8s-popup.csc.fi%2F>
-[badges-health-tesk-ebi-kubernetes]: <https://img.shields.io/website?url=https%3A%2F%2Ftes1.tsi.ebi.ac.uk%2Ftes>
+[badges-health-tesk-ebi-kubernetes]: <https://img.shields.io/website?url=https%3A%2F%2Ftes1.tsi.ebi.ac.uk%2Ftes%2Fv1%2Ftasks%2F%2Fservice-info>
 [badges-health-testribute-csc-compose]: <https://img.shields.io/website?url=http%3A%2F%2Fvm2051.kaj.pouta.csc.fi:7979%2Fui>
 [badges-health-testribute-csc-openshift]: <https://img.shields.io/website?url=http%3A%2F%2Ftestribute.c03.k8s-popup.csc.fi%2Fui>
 [badges-tes-cli-release]: <https://img.shields.io/github/v/tag/elixir-cloud-aai/TES-cli?color=C39BD3>
