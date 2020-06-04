@@ -140,7 +140,7 @@ point, and abusers will be blocked.
 [badges-health-pro-wes-csc-openshift]: <https://img.shields.io/website?url=https%3A%2F%2Fprowes.c03.k8s-popup.csc.fi%2Fga4gh%2Fwes%2Fv1%2Fui>
 [badges-health-tesk-cerit-kubernetes]: <https://img.shields.io/website?url=https%3A%2F%2Felixir-tesk2.cerit-sc.cz%2F>
 [badges-health-tesk-csc-openshift-2]: <https://img.shields.io/website?url=https%3A%2F%2Fcsc-tesk.c03.k8s-popup.csc.fi%2F>
-[badges-health-tesk-ebi-kubernetes]: <https://img.shields.io/website?url=https%3A%2F%2Ftes1.tsi.ebi.ac.uk%2Ftes%2Fv1%2Ftasks%2F%2Fservice-info>
+[badges-health-tesk-ebi-kubernetes]: <https://img.shields.io/website?url=https%3A%2F%2Ftes1.tsi.ebi.ac.uk%2Ftes%2Fv1%2Ftasks%2Fservice-info>
 [badges-health-testribute-csc-compose]: <https://img.shields.io/website?url=http%3A%2F%2Fvm2051.kaj.pouta.csc.fi:7979%2Fui>
 [badges-health-testribute-csc-openshift]: <https://img.shields.io/website?url=http%3A%2F%2Ftestribute.c03.k8s-popup.csc.fi%2Fui>
 [badges-tes-cli-release]: <https://img.shields.io/github/v/tag/elixir-cloud-aai/TES-cli?color=C39BD3>
