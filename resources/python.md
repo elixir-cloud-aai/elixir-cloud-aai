@@ -9,8 +9,7 @@
   tests)
 - To improve consistency and allow the automatic generation of API docs, please
   stick to Python's [general docstring conventions][py-pep257] and follow
-  [Google's docstring style][py-doc-style]
-  and follow the [Google]
+  [Google's docstring style][py-doc-style].
 - Use the following linters with default settings:
   - [`flake8`][py-flake8]
   - [`mypy`][py-mypy] OR [`pyright`][py-pyright] to help with type hints
