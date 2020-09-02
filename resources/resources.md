@@ -37,6 +37,7 @@ testing purposes:
 
 | Name | Description | API | Status |
 | --- | --- | --- | --- |
+| [drs-filer][apps-drs-filer] | Microservice implementing [DRS][specs-ga4gh-drs] API specification. | [GA4GH DRS][specs-ga4gh-drs] | ![under development][badges-under-development] |
 | [mock-DRS][mock-apps-drs] | Mock service used for [TEStribute][apps-testribute] | [GA4GH DRS][specs-ga4gh-drs] (partially implemented) | ![under development][badges-under-development] |
 | [mock-TES][mock-apps-tes] | Mock service used for [TEStribute][apps-testribute] | [Extended GA4GH TES][specs-mock-tes] | ![under development][badges-under-development] |
 
@@ -96,6 +97,13 @@ point, and abusers will be blocked.
 | [EMBL-EBI][loc-ebi], UK | [Kubernetes][res-kubernetes] | Yes | No | [API][depl-api-tesk-ebi-kubernetes] / [Swagger UI][depl-ui-tesk-ebi-kubernetes] | [![Status][badges-health-tesk-ebi-kubernetes]][depl-ui-tesk-ebi-kubernetes] |
 | [CERIT-SC][loc-cerit], CZ | [Kubernetes][res-kubernetes] | Yes | Yes | [API][depl-api-tesk-cerit-kubernetes] / [Swagger UI][depl-ui-tesk-cerit-kubernetes] | [![Status][badges-health-tesk-cerit-kubernetes]][depl-ui-tesk-cerit-kubernetes] |
 
+### drs-filer
+
+| Location | Type | TLS | Auth | URL | Health |
+| --- | --- | --- | --- | --- | --- |
+| [CSC][loc-csc], Finland | [Docker Compose][res-docker-compose] | No | No | [API][depl-api-drs-filer-csc-compose] / [Swagger UI][depl-ui-drs-filer-csc-compose] | [![Status][badges-health-mock-drs-csc-compose]][depl-ui-drs-filer-csc-compose] |
+
+
 ### mock-DRS
 
 | Location | Type | TLS | Auth | URL | Health |
@@ -114,6 +122,7 @@ point, and abusers will be blocked.
 [apps-cwlab]: <https://github.com/CompEpigen/CWLab>
 [apps-cwlab-releases]: <https://github.com/CompEpigen/CWLab/releases>
 [apps-cwl-wes]: <https://github.com/elixir-cloud-aai/cwl-WES>
+[apps-drs-filer]: <https://github.com/elixir-cloud-aai/drs-filer>
 [apps-pro-tes]: <https://github.com/elixir-cloud-aai/proTES>
 [apps-pro-wes]: <https://github.com/elixir-cloud-aai/proWES>
 [apps-tesk]: <https://github.com/EMBL-EBI-TSI/TESK>
@@ -154,8 +163,9 @@ point, and abusers will be blocked.
 [depl-api-cwl-wes-csc-compose]: <http://193.167.189.73:7777/ga4gh/wes/v1/>
 [depl-api-cwl-wes-csc-openshift]: <https://wes.c03.k8s-popup.csc.fi/ga4gh/wes/v1/>
 [depl-api-cwl-wes-csc-rahti]: <https://csc-wes.rahtiapp.fi/ga4gh/wes/v1/>
+[depl-api-drs-filer-csc-compose]: <http://193.166.24.114/ga4gh/drs/v1/>
 [depl-api-mock-drs-bz-compose]: <http://131.152.229.71/ga4gh/drs/v1/>
-[depl-api-mock-drs-csc-compose]: <http://193.166.24.114/ga4gh/drs/v1/>
+[depl-api-mock-drs-csc-compose]: <http://193.166.24.114:9101/ga4gh/drs/v1/>
 [depl-api-mock-tes-bz-compose]: <http://131.152.229.70/ga4gh/tes/v1/>
 [depl-api-mock-tes-csc-compose]: <http://193.166.24.111/ga4gh/tes/v1/>
 [depl-api-mock-tes-ebi-kubernetes]: <https://tes1.tsi.ebi.ac.uk/mock/ga4gh/tes/v1/>
@@ -173,8 +183,9 @@ point, and abusers will be blocked.
 [depl-ui-cwlab-dkfz-dev]: <https://cwlab.dev.krini.ingress.rancher.computational.bio/>
 [depl-ui-cwlab-dkfz-master]: <https://cwlab.krini.ingress.rancher.computational.bio/>
 [depl-ui-cwlab-dkfz-test]: <https://cwlab.testing.krini.ingress.rancher.computational.bio/>
+[depl-ui-drs-filer-csc-compose]: <http://193.166.24.114/ga4gh/drs/v1/ui/>
 [depl-ui-mock-drs-bz-compose]: <http://131.152.229.71/ga4gh/drs/v1/ui/>
-[depl-ui-mock-drs-csc-compose]: <http://193.166.24.114/ga4gh/drs/v1/ui/>
+[depl-ui-mock-drs-csc-compose]: <http://193.166.24.114:9101/ga4gh/drs/v1/ui/>
 [depl-ui-mock-tes-bz-compose]: <http://131.152.229.70/ga4gh/tes/v1/ui/>
 [depl-ui-mock-tes-csc-compose]: <http://193.166.24.111/ga4gh/tes/v1/ui/>
 [depl-ui-mock-tes-ebi-kubernetes]: <https://tes1.tsi.ebi.ac.uk/mock/ga4gh/tes/v1/ui/>
