@@ -125,7 +125,7 @@ point, and abusers will be blocked.
 [badges-drs-cli-release]: <https://img.shields.io/github/v/tag/elixir-cloud-aai/DRS-cli?color=C39BD3>
 [badges-tesk-release]: <https://img.shields.io/github/v/tag/EMBL-EBI-TSI/tesk-api?color=C39BD3>
 [badges-health-cwl-wes-csc-compose]: <https://img.shields.io/website?url=http%3A%2F%2F193.167.189.73%3A7777%2Fga4gh%2Fwes%2Fv1%2Fui>
-[badges-health-cwl-wes-csc-openshift]: <https://img.shields.io/website?url=https%3A%2F%2Fwes.c03.k8s-popup.csc.fi%2Fga4gh%2Fwes%2Fv1%2Fui>
+[badges-health-cwl-wes-csc-openshift]: <https://img.shields.io/website?url=https%3A%2F%2Fwes.rahtiapp.fi%2Fga4gh%2Fwes%2Fv1%2Fui>
 [badges-health-cwl-wes-csc-rahti]: <https://img.shields.io/website?url=https%3A%2F%2Fcsc-wes.rahtiapp.fi%2Fga4gh%2Fwes%2Fv1%2Fui%2F>
 [badges-health-cwlab-dev]: <https://img.shields.io/website?url=https%3A%2F%2Fcwlab.dev.krini.ingress.rancher.computational.bio%2F>
 [badges-health-cwlab-master]: <https://img.shields.io/website?url=https%3A%2F%2Fcwlab.krini.ingress.rancher.computational.bio%2F>
@@ -152,7 +152,7 @@ point, and abusers will be blocked.
 [clients-tes-cli-releases]: <https://github.com/elixir-cloud-aai/TES-cli/releases>
 [clients-wes-cli]: <https://github.com/elixir-cloud-aai/WES-cli>
 [depl-api-cwl-wes-csc-compose]: <http://193.167.189.73:7777/ga4gh/wes/v1/>
-[depl-api-cwl-wes-csc-openshift]: <https://wes.c03.k8s-popup.csc.fi/ga4gh/wes/v1/>
+[depl-api-cwl-wes-csc-openshift]: <https://wes.rahtiapp.fi/ga4gh/wes/v1/>
 [depl-api-cwl-wes-csc-rahti]: <https://csc-wes.rahtiapp.fi/ga4gh/wes/v1/>
 [depl-api-mock-drs-bz-compose]: <http://131.152.229.71/ga4gh/drs/v1/>
 [depl-api-mock-drs-csc-compose]: <http://193.166.24.114/ga4gh/drs/v1/>
@@ -168,7 +168,7 @@ point, and abusers will be blocked.
 [depl-api-testribute-csc-compose]: <http://vm2051.kaj.pouta.csc.fi:7979/>
 [depl-api-testribute-csc-openshift]: <http://testribute.c03.k8s-popup.csc.fi/>
 [depl-ui-cwl-wes-csc-compose]: <http://193.167.189.73:7777/ga4gh/wes/v1/ui/>
-[depl-ui-cwl-wes-csc-openshift]: <https://wes.c03.k8s-popup.csc.fi/ga4gh/wes/v1/ui/>
+[depl-ui-cwl-wes-csc-openshift]: <https://wes.rahtiapp.fi/ga4gh/wes/v1/ui/>
 [depl-ui-cwl-wes-csc-rahti]: <https://csc-wes.rahtiapp.fi/ga4gh/wes/v1/ui/>
 [depl-ui-cwlab-dkfz-dev]: <https://cwlab.dev.krini.ingress.rancher.computational.bio/>
 [depl-ui-cwlab-dkfz-master]: <https://cwlab.krini.ingress.rancher.computational.bio/>
