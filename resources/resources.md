@@ -139,7 +139,7 @@ point, and abusers will be blocked.
 [badges-health-pro-tes-csc-openshift]: <https://img.shields.io/website?url=https%3A%2F%2Fprotes.c03.k8s-popup.csc.fi%2Fga4gh%2Ftes%2Fv1%2Fui>
 [badges-health-pro-wes-csc-openshift]: <https://img.shields.io/website?url=https%3A%2F%2Fprowes.c03.k8s-popup.csc.fi%2Fga4gh%2Fwes%2Fv1%2Fui>
 [badges-health-tesk-cerit-kubernetes]: <https://img.shields.io/website?url=https%3A%2F%2Felixir-tesk2.cerit-sc.cz%2F>
-[badges-health-tesk-csc-openshift-2]: <https://img.shields.io/website?url=https%3A%2F%2Fcsc-tesk.c03.k8s-popup.csc.fi%2F>
+[badges-health-tesk-csc-openshift-2]: <https://img.shields.io/website?url=https%3A%2F%2Fcsc-tesk.rahtiapp.fi%2F>
 [badges-health-tesk-ebi-kubernetes]: <https://img.shields.io/website?url=https%3A%2F%2Ftes1.tsi.ebi.ac.uk%2Ftes%2Fv1%2Ftasks%2Fservice-info>
 [badges-health-testribute-csc-compose]: <https://img.shields.io/website?url=http%3A%2F%2Fvm2051.kaj.pouta.csc.fi:7979%2Fui>
 [badges-health-testribute-csc-openshift]: <https://img.shields.io/website?url=http%3A%2F%2Ftestribute.c03.k8s-popup.csc.fi%2Fui>
@@ -163,7 +163,7 @@ point, and abusers will be blocked.
 [depl-api-pro-tes-csc-openshift]: <https://protes.c03.k8s-popup.csc.fi/ga4gh/tes/v1/>
 [depl-api-pro-wes-csc-openshift]: <https://prowes.c03.k8s-popup.csc.fi/ga4gh/wes/v1/>
 [depl-api-tesk-cerit-kubernetes]: <https://elixir-tesk2.cerit-sc.cz/>
-[depl-api-tesk-csc-openshift-2]: <https://csc-tesk.c03.k8s-popup.csc.fi/>
+[depl-api-tesk-csc-openshift-2]: <https://csc-tesk.rahtiapp.fi/>
 [depl-api-tesk-ebi-kubernetes]: <https://tes1.tsi.ebi.ac.uk/tes>
 [depl-api-testribute-csc-compose]: <http://vm2051.kaj.pouta.csc.fi:7979/>
 [depl-api-testribute-csc-openshift]: <http://testribute.c03.k8s-popup.csc.fi/>
@@ -182,7 +182,7 @@ point, and abusers will be blocked.
 [depl-ui-pro-tes-csc-openshift]: <https://protes.c03.k8s-popup.csc.fi/ga4gh/tes/v1/ui/>
 [depl-ui-pro-wes-csc-openshift]: <https://prowes.c03.k8s-popup.csc.fi/ga4gh/wes/v1/ui/>
 [depl-ui-tesk-cerit-kubernetes]: <https://elixir-tesk2.cerit-sc.cz/>
-[depl-ui-tesk-csc-openshift-2]: <https://csc-tesk.c03.k8s-popup.csc.fi/>
+[depl-ui-tesk-csc-openshift-2]: <https://csc-tesk.rahtiapp.fi/>
 [depl-ui-tesk-ebi-kubernetes]: <https://tes1.tsi.ebi.ac.uk/tes>
 [depl-ui-testribute-csc-compose]: <http://vm2051.kaj.pouta.csc.fi:7979/ui/>
 [depl-ui-testribute-csc-openshift]: <http://testribute.c03.k8s-popup.csc.fi/ui/>
