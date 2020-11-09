@@ -137,7 +137,7 @@ point, and abusers will be blocked.
 [badges-health-mock-tes-ebi-kubernetes]: <https://img.shields.io/website?url=https%3A%2F%2Ftes1.tsi.ebi.ac.uk%2Fmock%2Fga4gh%2Ftes%2Fv1%2Fui%2F>
 [badges-health-pro-tes-csc-compose]: <https://img.shields.io/website?url=http%3A%2F%2F86.50.252.55:7878%2Fga4gh%2Ftes%2Fv1%2Fui>
 [badges-health-pro-tes-csc-openshift]: <https://img.shields.io/website?url=https%3A%2F%2Fprotes.c03.k8s-popup.csc.fi%2Fga4gh%2Ftes%2Fv1%2Fui>
-[badges-health-pro-wes-csc-openshift]: <https://img.shields.io/website?url=https%3A%2F%2Fprowes.c03.k8s-popup.csc.fi%2Fga4gh%2Fwes%2Fv1%2Fui>
+[badges-health-pro-wes-csc-openshift]: <https://img.shields.io/website?url=https%3A%2F%2Fprowes.rahtiapp.fi%2Fga4gh%2Fwes%2Fv1%2Fui>
 [badges-health-tesk-cerit-kubernetes]: <https://img.shields.io/website?url=https%3A%2F%2Felixir-tesk2.cerit-sc.cz%2F>
 [badges-health-tesk-csc-openshift-2]: <https://img.shields.io/website?url=https%3A%2F%2Fcsc-tesk.rahtiapp.fi%2F>
 [badges-health-tesk-ebi-kubernetes]: <https://img.shields.io/website?url=https%3A%2F%2Ftes1.tsi.ebi.ac.uk%2Ftes%2Fv1%2Ftasks%2Fservice-info>
@@ -161,7 +161,7 @@ point, and abusers will be blocked.
 [depl-api-mock-tes-ebi-kubernetes]: <https://tes1.tsi.ebi.ac.uk/mock/ga4gh/tes/v1/>
 [depl-api-pro-tes-csc-compose]: <http://86.50.252.55:7878/ga4gh/tes/v1/>
 [depl-api-pro-tes-csc-openshift]: <https://protes.c03.k8s-popup.csc.fi/ga4gh/tes/v1/>
-[depl-api-pro-wes-csc-openshift]: <https://prowes.c03.k8s-popup.csc.fi/ga4gh/wes/v1/>
+[depl-api-pro-wes-csc-openshift]: <https://prowes.rahtiapp.fi/ga4gh/wes/v1/>
 [depl-api-tesk-cerit-kubernetes]: <https://elixir-tesk2.cerit-sc.cz/>
 [depl-api-tesk-csc-openshift-2]: <https://csc-tesk.rahtiapp.fi/>
 [depl-api-tesk-ebi-kubernetes]: <https://tes1.tsi.ebi.ac.uk/tes>
@@ -180,7 +180,7 @@ point, and abusers will be blocked.
 [depl-ui-mock-tes-ebi-kubernetes]: <https://tes1.tsi.ebi.ac.uk/mock/ga4gh/tes/v1/ui/>
 [depl-ui-pro-tes-csc-compose]: <http://86.50.252.55:7878/ga4gh/tes/v1/ui/>
 [depl-ui-pro-tes-csc-openshift]: <https://protes.c03.k8s-popup.csc.fi/ga4gh/tes/v1/ui/>
-[depl-ui-pro-wes-csc-openshift]: <https://prowes.c03.k8s-popup.csc.fi/ga4gh/wes/v1/ui/>
+[depl-ui-pro-wes-csc-openshift]: <https://prowes.rahtiapp.fi/ga4gh/wes/v1/ui/>
 [depl-ui-tesk-cerit-kubernetes]: <https://elixir-tesk2.cerit-sc.cz/>
 [depl-ui-tesk-csc-openshift-2]: <https://csc-tesk.rahtiapp.fi/>
 [depl-ui-tesk-ebi-kubernetes]: <https://tes1.tsi.ebi.ac.uk/tes>
