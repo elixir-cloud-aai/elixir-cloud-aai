@@ -142,7 +142,7 @@ point, and abusers will be blocked.
 [badges-health-tesk-csc-openshift-2]: <https://img.shields.io/website?url=https%3A%2F%2Fcsc-tesk.rahtiapp.fi%2F>
 [badges-health-tesk-ebi-kubernetes]: <https://img.shields.io/website?url=https%3A%2F%2Ftes1.tsi.ebi.ac.uk%2Ftes%2Fv1%2Ftasks%2Fservice-info>
 [badges-health-testribute-csc-compose]: <https://img.shields.io/website?url=http%3A%2F%2Fvm2051.kaj.pouta.csc.fi:7979%2Fui>
-[badges-health-testribute-csc-openshift]: <https://img.shields.io/website?url=http%3A%2F%2Ftestribute.c03.k8s-popup.csc.fi%2Fui>
+[badges-health-testribute-csc-openshift]: <https://img.shields.io/website?url=http%3A%2F%2Ftestribute.rahtiapp.fi%2Fui>
 [badges-tes-cli-release]: <https://img.shields.io/github/v/tag/elixir-cloud-aai/TES-cli?color=C39BD3>
 [badges-testribute-release]: <https://img.shields.io/github/v/tag/elixir-cloud-aai/TEStribute?color=C39BD3>
 [badges-under-development]: <https://img.shields.io/static/v1?label=development&message=active&color=yellowgreen>
@@ -166,7 +166,7 @@ point, and abusers will be blocked.
 [depl-api-tesk-csc-openshift-2]: <https://csc-tesk.rahtiapp.fi/>
 [depl-api-tesk-ebi-kubernetes]: <https://tes1.tsi.ebi.ac.uk/tes>
 [depl-api-testribute-csc-compose]: <http://vm2051.kaj.pouta.csc.fi:7979/>
-[depl-api-testribute-csc-openshift]: <http://testribute.c03.k8s-popup.csc.fi/>
+[depl-api-testribute-csc-openshift]: <http://testribute.rahtiapp.fi/>
 [depl-ui-cwl-wes-csc-compose]: <http://193.167.189.73:7777/ga4gh/wes/v1/ui/>
 [depl-ui-cwl-wes-csc-openshift]: <https://wes.c03.k8s-popup.csc.fi/ga4gh/wes/v1/ui/>
 [depl-ui-cwl-wes-csc-rahti]: <https://csc-wes.rahtiapp.fi/ga4gh/wes/v1/ui/>
@@ -185,7 +185,7 @@ point, and abusers will be blocked.
 [depl-ui-tesk-csc-openshift-2]: <https://csc-tesk.rahtiapp.fi/>
 [depl-ui-tesk-ebi-kubernetes]: <https://tes1.tsi.ebi.ac.uk/tes>
 [depl-ui-testribute-csc-compose]: <http://vm2051.kaj.pouta.csc.fi:7979/ui/>
-[depl-ui-testribute-csc-openshift]: <http://testribute.c03.k8s-popup.csc.fi/ui/>
+[depl-ui-testribute-csc-openshift]: <http://testribute.rahtiapp.fi/ui/>
 [elixir-aai]: <https://elixir-europe.org/services/compute/aai>
 [guidelines-aai]: <https://github.com/elixir-cloud-aai/elixir-aai-guidelines>
 [guidelines-aai-releases]: <https://github.com/elixir-cloud-aai/elixir-aai-guidelines/releases>
