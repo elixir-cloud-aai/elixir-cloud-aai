@@ -15,6 +15,7 @@ The following services collectively constitute the core efforts of our team:
 | [CWLab][apps-cwlab] | Web portal | Custom | [GA4GH WES][specs-ga4gh-wes] | [![release_tag][badges-cwlab-release]][apps-cwlab-releases] |
 | [proWES][apps-pro-wes] | Gateway for workflows | [GA4GH WES][specs-ga4gh-wes] | [GA4GH WES][specs-ga4gh-wes] | ![under development][badges-under-development] |
 | [cwl-WES][apps-cwl-wes] | Run [CWL][res-cwl] workflows | [GA4GH WES][specs-ga4gh-wes] | [GA4GH TES][specs-ga4gh-tes] | ![under development][badges-under-development] |
+| [DRS-Filer][apps-drs-filer] | Data object indexer | [GA4GH DRS][specs-ga4gh-drs] | N/A | ![under development][badges-under-development] |
 | [proTES][apps-pro-tes] | Gateway for tasks | [GA4GH WES][specs-ga4gh-tes] | [GA4GH TES][specs-ga4gh-tes] | ![under development][badges-under-development] |
 | [TEStribute][apps-testribute] | Task distribution middleware | [Custom][specs-testribute] | [GA4GH TES][specs-ga4gh-wes] | [![release_tag][badges-testribute-release]][apps-testribute-releases] |
 | [TESK][apps-tesk] | Execute tasks on [Kubernetes][res-kubernetes] | [GA4GH TES][specs-ga4gh-tes] | N/A | [![release_tag][badges-tesk-release]][apps-tesk-releases] |
@@ -37,6 +38,7 @@ testing purposes:
 
 | Name | Description | API | Status |
 | --- | --- | --- | --- |
+| [drs-filer][apps-drs-filer] | Microservice implementing [DRS][specs-ga4gh-drs] API specification. | [GA4GH DRS][specs-ga4gh-drs] | ![under development][badges-under-development] |
 | [mock-DRS][mock-apps-drs] | Mock service used for [TEStribute][apps-testribute] | [GA4GH DRS][specs-ga4gh-drs] (partially implemented) | ![under development][badges-under-development] |
 | [mock-TES][mock-apps-tes] | Mock service used for [TEStribute][apps-testribute] | [Extended GA4GH TES][specs-mock-tes] | ![under development][badges-under-development] |
 
@@ -72,6 +74,12 @@ point, and abusers will be blocked.
 | --- | --- | --- | --- | --- | --- |
 | [CSC][loc-csc], Finland | [OpenShift][res-openshift] | Yes | No | [API][depl-api-cwl-wes-csc-openshift] / [Swagger UI][depl-ui-cwl-wes-csc-openshift] | [![Status][badges-health-cwl-wes-csc-openshift]][depl-ui-cwl-wes-csc-openshift] |
 | [CSC][loc-csc], Finland | [OpenShift][res-openshift] | Yes | Yes | [API][depl-api-cwl-wes-csc-rahti] / [Swagger UI][depl-ui-cwl-wes-csc-rahti] | [![Status][badges-health-cwl-wes-csc-rahti]][depl-ui-cwl-wes-csc-rahti] |
+
+### DRS-Filer
+
+| Location | Type | TLS | Auth | URL | Health |
+| --- | --- | --- | --- | --- | --- |
+| [CSC][loc-csc], Finland | [OpenShift][res-openshift] | Yes | No | [API][depl-api-drs-filer-csc-openshift] / [Swagger UI][depl-ui-drs-filer-csc-openshift] | [![Status][badges-health-drs-filer-csc-openshift]][depl-ui-drs-filer-csc-openshift] |
 
 ### proTES
 
@@ -109,6 +117,7 @@ point, and abusers will be blocked.
 [apps-cwlab]: <https://github.com/CompEpigen/CWLab>
 [apps-cwlab-releases]: <https://github.com/CompEpigen/CWLab/releases>
 [apps-cwl-wes]: <https://github.com/elixir-cloud-aai/cwl-WES>
+[apps-drs-filer]: <https://github.com/elixir-cloud-aai/drs-filer>
 [apps-pro-tes]: <https://github.com/elixir-cloud-aai/proTES>
 [apps-pro-wes]: <https://github.com/elixir-cloud-aai/proWES>
 [apps-tesk]: <https://github.com/EMBL-EBI-TSI/TESK>
@@ -124,6 +133,7 @@ point, and abusers will be blocked.
 [badges-health-cwlab-dev]: <https://img.shields.io/website?url=https%3A%2F%2Fcwlab.dev.krini.ingress.rancher.computational.bio%2F>
 [badges-health-cwlab-master]: <https://img.shields.io/website?url=https%3A%2F%2Fcwlab.krini.ingress.rancher.computational.bio%2F>
 [badges-health-cwlab-test]: <https://img.shields.io/website?url=https%3A%2F%2Fcwlab.testing.krini.ingress.rancher.computational.bio%2F>
+[badges-health-drs-filer-csc-openshift]: <https://img.shields.io/website?url=https%3A%2F%2Fdrs-filer-test.rahtiapp.fi%2Fga4gh%2Fdrs%2Fv1%2Fui>
 [badges-health-mock-drs-bz-compose]: <https://img.shields.io/website?url=http%3A%2F%2F131.152.229.71%2Fga4gh%2Fdrs%2Fv1%2Fui>
 [badges-health-mock-tes-bz-compose]: <https://img.shields.io/website?url=http%3A%2F%2F131.152.229.70%2Fga4gh%2Ftes%2Fv1%2Fui>
 [badges-health-mock-tes-ebi-kubernetes]: <https://img.shields.io/website?url=https%3A%2F%2Ftes1.tsi.ebi.ac.uk%2Fmock%2Fga4gh%2Ftes%2Fv1%2Fui%2F>
@@ -143,6 +153,7 @@ point, and abusers will be blocked.
 [clients-wes-cli]: <https://github.com/elixir-cloud-aai/WES-cli>
 [depl-api-cwl-wes-csc-openshift]: <https://wes.rahtiapp.fi/ga4gh/wes/v1/>
 [depl-api-cwl-wes-csc-rahti]: <https://csc-wes.rahtiapp.fi/ga4gh/wes/v1/>
+[depl-api-drs-filer-csc-openshift]: <https://drs-filer-test.rahtiapp.fi/ga4gh/drs/v1/>
 [depl-api-mock-drs-bz-compose]: <http://131.152.229.71/ga4gh/drs/v1/>
 [depl-api-mock-tes-bz-compose]: <http://131.152.229.70/ga4gh/tes/v1/>
 [depl-api-mock-tes-ebi-kubernetes]: <https://tes1.tsi.ebi.ac.uk/mock/ga4gh/tes/v1/>
@@ -157,6 +168,7 @@ point, and abusers will be blocked.
 [depl-ui-cwlab-dkfz-dev]: <https://cwlab.dev.krini.ingress.rancher.computational.bio/>
 [depl-ui-cwlab-dkfz-master]: <https://cwlab.krini.ingress.rancher.computational.bio/>
 [depl-ui-cwlab-dkfz-test]: <https://cwlab.testing.krini.ingress.rancher.computational.bio/>
+[depl-ui-drs-filer-csc-openshift]: <https://drs-filer-test.rahtiapp.fi/ga4gh/drs/v1/ui/>
 [depl-ui-mock-drs-bz-compose]: <http://131.152.229.71/ga4gh/drs/v1/ui/>
 [depl-ui-mock-tes-bz-compose]: <http://131.152.229.70/ga4gh/tes/v1/ui/>
 [depl-ui-mock-tes-ebi-kubernetes]: <https://tes1.tsi.ebi.ac.uk/mock/ga4gh/tes/v1/ui/>
