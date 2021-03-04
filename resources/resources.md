@@ -79,7 +79,7 @@ point, and abusers will be blocked.
 
 | Location | Type | TLS | Auth | URL | Health |
 | --- | --- | --- | --- | --- | --- |
-| [CSC][loc-csc], Finland | [OpenShift][res-openshift] | Yes | No | [API][depl-api-drs-filer-csc-openshift] / [Swagger UI][depl-ui-drs-filer-csc-openshift] | [![Status][badges-health-mock-drs-csc-openshift]][depl-ui-drs-filer-csc-openshift] |
+| [CSC][loc-csc], Finland | [OpenShift][res-openshift] | Yes | No | [API][depl-api-drs-filer-csc-openshift] / [Swagger UI][depl-ui-drs-filer-csc-openshift] | [![Status][badges-health-drs-filer-csc-openshift]][depl-ui-drs-filer-csc-openshift] |
 
 ### proTES
 
