@@ -13,6 +13,7 @@ The following services collectively constitute the core efforts of our team:
 | Name | Description | Server-side APIs | Client-side APIs | Status |
 | --- | --- | --- | --- | --- |
 | [CWLab][apps-cwlab] | Web portal | Custom | [GA4GH WES][specs-ga4gh-wes] | [![release_tag][badges-cwlab-release]][apps-cwlab-releases] |
+| [Cloud Registry][apps-cloud-registry] | Service registry | [GA4GH Service Registry][specs-ga4gh-service-registry] | N/A | ![under development][badges-under-development] |
 | [TRS-Filer][apps-trs-filer] | Tool registry | [GA4GH TRS][specs-ga4gh-trs] | N/A | ![under development][badges-under-development] |
 | [proWES][apps-pro-wes] | Gateway for workflows | [GA4GH WES][specs-ga4gh-wes] | [GA4GH WES][specs-ga4gh-wes] | ![under development][badges-under-development] |
 | [cwl-WES][apps-cwl-wes] | Run [CWL][res-cwl] workflows | [GA4GH WES][specs-ga4gh-wes] | [GA4GH TES][specs-ga4gh-tes] | ![under development][badges-under-development] |
@@ -62,6 +63,12 @@ point, and abusers will be blocked.
 | [DKFZ][loc-dkfz], Germany | Master | Yes | Yes | [UI][depl-ui-cwlab-dkfz-master] | [![Status][badges-health-cwlab-master]][depl-ui-cwlab-dkfz-master] |
 | [DKFZ][loc-dkfz], Germany | Development | Yes | Yes | [UI][depl-ui-cwlab-dkfz-dev] | [![Status][badges-health-cwlab-dev]][depl-ui-cwlab-dkfz-dev] |
 | [DKFZ][loc-dkfz], Germany | Testing | Yes | Yes | [UI][depl-ui-cwlab-dkfz-test] | [![Status][badges-health-cwlab-test]][depl-ui-cwlab-dkfz-test] |
+
+### Cloud Registry
+
+| Location | Type | TLS | Auth | URL | Health |
+| --- | --- | --- | --- | --- | --- |
+| [CSC][loc-csc], Finland | [OpenShift][res-openshift] | Yes | No | [API][depl-api-cloud-registry-csc-openshift] / [Swagger UI][depl-ui-cloud-registry-csc-openshift] | [![Status][badges-health-cloud-registry-csc-openshift]][depl-ui-cloud-registry-csc-openshift] |
 
 ### TRS-Filer
 
@@ -121,6 +128,7 @@ point, and abusers will be blocked.
 | [EMBL-EBI][loc-ebi], UK | [Kubernetes][res-kubernetes] | Yes | No | [API][depl-api-mock-tes-ebi-kubernetes] / [Swagger UI][depl-ui-mock-tes-ebi-kubernetes] | [![Status][badges-health-mock-tes-ebi-kubernetes]][depl-ui-mock-tes-ebi-kubernetes] |
 | [sciCORE][loc-bz], Switzerland | [Docker Compose][res-docker-compose] | No | No | [API][depl-api-mock-tes-bz-compose] / [Swagger UI][depl-ui-mock-tes-bz-compose] | [![Status][badges-health-mock-tes-bz-compose]][depl-ui-mock-tes-bz-compose] |
 
+[apps-cloud-registry]: <https://github.com/elixir-cloud-aai/cloud-registry>
 [apps-cwlab]: <https://github.com/CompEpigen/CWLab>
 [apps-cwlab-releases]: <https://github.com/CompEpigen/CWLab/releases>
 [apps-cwl-wes]: <https://github.com/elixir-cloud-aai/cwl-WES>
@@ -136,6 +144,7 @@ point, and abusers will be blocked.
 [badges-cwlab-release]: <https://img.shields.io/github/v/tag/CompEpigen/CWLab?color=C39BD3>
 [badges-drs-cli-release]: <https://img.shields.io/github/v/tag/elixir-cloud-aai/DRS-cli?color=C39BD3>
 [badges-tesk-release]: <https://img.shields.io/github/v/tag/EMBL-EBI-TSI/tesk-api?color=C39BD3>
+[badges-health-cloud-registry-csc-openshift]: <https://img.shields.io/website?url=https%3A%2F%2Fcloud-registry.rahtiapp.fi%2Fga4gh%2Fregistry%2Fv1%2Fui%2F>
 [badges-health-cwl-wes-csc-openshift]: <https://img.shields.io/website?url=https%3A%2F%2Fwes.rahtiapp.fi%2Fga4gh%2Fwes%2Fv1%2Fui>
 [badges-health-cwl-wes-csc-rahti]: <https://img.shields.io/website?url=https%3A%2F%2Fcsc-wes.rahtiapp.fi%2Fga4gh%2Fwes%2Fv1%2Fui%2F>
 [badges-health-cwlab-dev]: <https://img.shields.io/website?url=https%3A%2F%2Fcwlab.dev.krini.ingress.rancher.computational.bio%2F>
@@ -163,6 +172,7 @@ point, and abusers will be blocked.
 [clients-trs-cli]: <https://github.com/elixir-cloud-aai/TRS-cli>
 [clients-trs-cli-releases]: <https://github.com/elixir-cloud-aai/TRS-cli/releases>
 [clients-wes-cli]: <https://github.com/elixir-cloud-aai/WES-cli>
+[depl-api-cloud-registry-csc-openshift]: <https://cloud-registry.rahtiapp.fi/ga4gh/registry/v1/>
 [depl-api-cwl-wes-csc-openshift]: <https://wes.rahtiapp.fi/ga4gh/wes/v1/>
 [depl-api-cwl-wes-csc-rahti]: <https://csc-wes.rahtiapp.fi/ga4gh/wes/v1/>
 [depl-api-drs-filer-csc-openshift]: <https://drs-filer-test.rahtiapp.fi/ga4gh/drs/v1/>
@@ -176,6 +186,7 @@ point, and abusers will be blocked.
 [depl-api-tesk-ebi-kubernetes]: <https://tes1.tsi.ebi.ac.uk/tes>
 [depl-api-testribute-csc-openshift]: <http://testribute.rahtiapp.fi/>
 [depl-api-trs-filer-csc-openshift]: <https://trs-filer-test.rahtiapp.fi/ga4gh/trs/v2/>
+[depl-ui-cloud-registry-csc-openshift]: <https://cloud-registry.rahtiapp.fi/ga4gh/registry/v1/ui/>
 [depl-ui-cwl-wes-csc-openshift]: <https://wes.rahtiapp.fi/ga4gh/wes/v1/ui/>
 [depl-ui-cwl-wes-csc-rahti]: <https://csc-wes.rahtiapp.fi/ga4gh/wes/v1/ui/>
 [depl-ui-cwlab-dkfz-dev]: <https://cwlab.dev.krini.ingress.rancher.computational.bio/>
@@ -208,6 +219,7 @@ point, and abusers will be blocked.
 [res-openshift]: <https://www.openshift.com/>
 [res-swagger]: <https://swagger.io/>
 [specs-ga4gh-drs]: <https://github.com/ga4gh/data-repository-service-schemas>
+[specs-ga4gh-service-registry]: <https://github.com/ga4gh-discovery/ga4gh-service-registry>
 [specs-ga4gh-tes]: <https://github.com/ga4gh/task-execution-schemas>
 [specs-ga4gh-trs]: <https://github.com/ga4gh/tool-registry-service-schemas>
 [specs-ga4gh-wes]: <https://github.com/ga4gh/workflow-execution-service-schemas>
