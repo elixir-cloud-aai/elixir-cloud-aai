@@ -65,19 +65,27 @@ Currently available languages:
 
 ## Commit messages
 
-It is recommended that you use _semantic commit messages_, as described in the
-[Conventional Commits specification][conv-commits], in an effort to increase
+Please use _semantic commit messages_, as described in the [Conventional
+Commits specification][conv-commits], in an effort to increase consistency
 consistency, simplify maintenance and enable automated change logs.
 
 The general structure of _Conventional Commits_ is as follows:
 
 ```console
-<type>[optional scope]: <description>
+<type>(optional scope): <description>
 
 [optional body]
 
 [optional footer]
 ```
+
+Please keep the _title_ line short (50 characters or less). If you want to get
+more descriptive, you can use the optional _body_. Please use the _footer_
+only to signify breaking changes, by adding `BREAKING CHANGE` to the start of
+the footer and describing why/what breaks. You can use multiple lines for
+body and footer, but please keep each line to 100 characters or less. For
+smaller projects such as most of ours, the use of the _scope_ is not
+recommended.
 
 Depending on the changes, we recommend to use one of the following **type**
 prefixes:
