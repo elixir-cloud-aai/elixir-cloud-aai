@@ -86,7 +86,7 @@ point, and abusers will be blocked.
 
 | Location | Type | TLS | Auth | URL | Health |
 | --- | --- | --- | --- | --- | --- |
-| [CERIT-SC][loc-cerit], CZ | [Kubernetes][res-kubernetes] | Yes | Yes | [API][depl-api-cwl-wes-cerit-kubernetes] / [Swagger UI][depl-ui-cwl-wes-cerit-kubernetes] | [![Status][badges-health-cwl-wes-cerit-kubernetes]][depl-ui-cwl-wes-cerit-kubernetes] |
+| [CERIT-SC][loc-cerit], CZ | [Kubernetes][res-kubernetes] | Yes | Yes | [API][depl-api-cwl-wes-cerit] / [Swagger UI][depl-ui-cwl-wes-cerit] | [![Status][badges-health-cwl-wes-cerit-kubernetes]][depl-ui-cwl-wes-cerit] |
 | [CSC][loc-csc], Finland | [OpenShift][res-openshift] | Yes | No | [API][depl-api-cwl-wes-csc-openshift] / [Swagger UI][depl-ui-cwl-wes-csc-openshift] | [![Status][badges-health-cwl-wes-csc-openshift]][depl-ui-cwl-wes-csc-openshift] |
 | [CSC][loc-csc], Finland | [OpenShift][res-openshift] | Yes | Yes | [API][depl-api-cwl-wes-csc-rahti] / [Swagger UI][depl-ui-cwl-wes-csc-rahti] | [![Status][badges-health-cwl-wes-csc-rahti]][depl-ui-cwl-wes-csc-rahti] |
 | [GRNET][loc-grnet] & [ARC][loc-athrc], Greece | [Kubernetes][res-kubernetes] | Yes | Yes | [API][depl-api-cwl-wes-athrc] / [Swagger UI][depl-ui-cwl-wes-athrc] | [![Status][badges-health-cwl-wes-athrc]][depl-ui-cwl-wes-athrc] |
