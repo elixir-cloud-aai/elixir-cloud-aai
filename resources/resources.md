@@ -86,6 +86,7 @@ point, and abusers will be blocked.
 
 | Location | Type | TLS | Auth | URL | Health |
 | --- | --- | --- | --- | --- | --- |
+| [CERIT-SC][loc-cerit], CZ | [Kubernetes][res-kubernetes] | Yes | Yes | [API][depl-api-cwl-wes-cerit] / [Swagger UI][depl-ui-cwl-wes-cerit] | [![Status][badges-health-cwl-wes-cerit-kubernetes]][depl-ui-cwl-wes-cerit] |
 | [CSC][loc-csc], Finland | [OpenShift][res-openshift] | Yes | No | [API][depl-api-cwl-wes-csc-openshift] / [Swagger UI][depl-ui-cwl-wes-csc-openshift] | [![Status][badges-health-cwl-wes-csc-openshift]][depl-ui-cwl-wes-csc-openshift] |
 | [CSC][loc-csc], Finland | [OpenShift][res-openshift] | Yes | Yes | [API][depl-api-cwl-wes-csc-rahti] / [Swagger UI][depl-ui-cwl-wes-csc-rahti] | [![Status][badges-health-cwl-wes-csc-rahti]][depl-ui-cwl-wes-csc-rahti] |
 | [GRNET][loc-grnet] & [ARC][loc-athrc], Greece | [Kubernetes][res-kubernetes] | Yes | Yes | [API][depl-api-cwl-wes-athrc] / [Swagger UI][depl-ui-cwl-wes-athrc] | [![Status][badges-health-cwl-wes-athrc]][depl-ui-cwl-wes-athrc] |
@@ -112,9 +113,9 @@ point, and abusers will be blocked.
 
 | Location | Type | TLS | Auth | URL | Health |
 | --- | --- | --- | --- | --- | --- |
+| [CERIT-SC][loc-cerit], CZ | [Kubernetes][res-kubernetes] | Yes | Yes | [API][depl-api-tesk-cerit-kubernetes] / [Swagger UI][depl-ui-tesk-cerit-kubernetes] | [![Status][badges-health-tesk-cerit-kubernetes]][depl-ui-tesk-cerit-kubernetes] |
 | [CSC][loc-csc], Finland | [OpenShift][res-openshift] | Yes | No | [API][depl-api-tesk-csc-openshift-2] / [Swagger UI][depl-ui-tesk-csc-openshift-2] | [![Status][badges-health-tesk-csc-openshift-2]][depl-ui-tesk-csc-openshift-2] |
 | [EMBL-EBI][loc-ebi], UK | [Kubernetes][res-kubernetes] | Yes | No | [API][depl-api-tesk-ebi-kubernetes] / [Swagger UI][depl-ui-tesk-ebi-kubernetes] | [![Status][badges-health-tesk-ebi-kubernetes]][depl-ui-tesk-ebi-kubernetes] |
-| [CERIT-SC][loc-cerit], CZ | [Kubernetes][res-kubernetes] | Yes | Yes | [API][depl-api-tesk-cerit-kubernetes] / [Swagger UI][depl-ui-tesk-cerit-kubernetes] | [![Status][badges-health-tesk-cerit-kubernetes]][depl-ui-tesk-cerit-kubernetes] |
 | [GRNET][loc-grnet] & [ARC][loc-athrc], Greece | [Kubernetes][res-kubernetes] | Yes | Yes | [API][depl-api-tesk-athrc-kubernetes] / [Swagger UI][depl-api-tesk-athrc-kubernetes] | [![Status][badges-health-tesk-athrc]][depl-api-tesk-athrc-kubernetes] |
 
 ### mock-DRS
@@ -148,6 +149,7 @@ point, and abusers will be blocked.
 [badges-tesk-release]: <https://img.shields.io/github/v/tag/EMBL-EBI-TSI/tesk-api?color=C39BD3>
 [badges-health-cloud-registry-csc-openshift]: <https://img.shields.io/website?url=https%3A%2F%2Fcloud-registry.rahtiapp.fi%2Fga4gh%2Fregistry%2Fv1%2Fui%2F>
 [badges-health-cwl-wes-athrc]: <https://img.shields.io/website?url=https%3A%2F%2Fwes-eu.egci-endpoints.imsi.athenarc.gr%2Fga4gh%2Fwes%2Fv1%2Fui%2F>
+[badges-health-cwl-wes-cerit-kubernetes]: <https://img.shields.io/website?url=https%3A%2F%2Fwes-prod.cerit-sc.cz%2Fga4gh%2Fwes%2Fv1%2Fui%2F>
 [badges-health-cwl-wes-csc-openshift]: <https://img.shields.io/website?url=https%3A%2F%2Fwes.rahtiapp.fi%2Fga4gh%2Fwes%2Fv1%2Fui>
 [badges-health-cwl-wes-csc-rahti]: <https://img.shields.io/website?url=https%3A%2F%2Fcsc-wes.rahtiapp.fi%2Fga4gh%2Fwes%2Fv1%2Fui%2F>
 [badges-health-cwlab-dev]: <https://img.shields.io/website?url=https%3A%2F%2Fcwlab.dev.krini.ingress.rancher.computational.bio%2F>
@@ -160,7 +162,7 @@ point, and abusers will be blocked.
 [badges-health-pro-wes-csc-openshift]: <https://img.shields.io/website?url=https%3A%2F%2Fprowes.rahtiapp.fi%2Fga4gh%2Fwes%2Fv1%2Fui>
 [badges-health-pro-tes-csc-openshift]: <https://img.shields.io/website?url=https%3A%2F%2Fprotes.rahtiapp.fi%2Fga4gh%2Ftes%2Fv1%2Fui>
 [badges-health-tesk-athrc]: <https://img.shields.io/website?url=https%3A%2F%2Ftesk-eu.egci-endpoints.imsi.athenarc.gr%2F>
-[badges-health-tesk-cerit-kubernetes]: <https://img.shields.io/website?url=https%3A%2F%2Felixir-tesk2.cerit-sc.cz%2F>
+[badges-health-tesk-cerit-kubernetes]: <https://img.shields.io/website?url=https%3A%2F%2Ftesk-prod.cerit-sc.cz%2F>
 [badges-health-tesk-csc-openshift-2]: <https://img.shields.io/website?url=https%3A%2F%2Fcsc-tesk.rahtiapp.fi%2F>
 [badges-health-tesk-ebi-kubernetes]: <https://img.shields.io/website?url=https%3A%2F%2Ftes1.tsi.ebi.ac.uk%2Ftes%2Fv1%2Ftasks%2Fservice-info>
 [badges-health-testribute-csc-openshift]: <https://img.shields.io/website?url=http%3A%2F%2Ftestribute.rahtiapp.fi%2Fui>
@@ -178,6 +180,7 @@ point, and abusers will be blocked.
 [clients-wes-cli]: <https://github.com/elixir-cloud-aai/WES-cli>
 [depl-api-cloud-registry-csc-openshift]: <https://cloud-registry.rahtiapp.fi/ga4gh/registry/v1/>
 [depl-api-cwl-wes-athrc]: <https://wes-eu.egci-endpoints.imsi.athenarc.gr/ga4gh/wes/v1/>
+[depl-api-cwl-wes-cerit]: <https://wes-prod.cerit-sc.cz/ga4gh/wes/v1/>
 [depl-api-cwl-wes-csc-openshift]: <https://wes.rahtiapp.fi/ga4gh/wes/v1/>
 [depl-api-cwl-wes-csc-rahti]: <https://csc-wes.rahtiapp.fi/ga4gh/wes/v1/>
 [depl-api-drs-filer-csc-openshift]: <https://drs-filer-test.rahtiapp.fi/ga4gh/drs/v1/>
@@ -187,13 +190,14 @@ point, and abusers will be blocked.
 [depl-api-pro-wes-csc-openshift]: <https://prowes.rahtiapp.fi/ga4gh/wes/v1/>
 [depl-api-pro-tes-csc-openshift]: <https://protes.rahtiapp.fi/ga4gh/tes/v1/>
 [depl-api-tesk-athrc-kubernetes]: <https://tesk-eu.egci-endpoints.imsi.athenarc.gr/>
-[depl-api-tesk-cerit-kubernetes]: <https://elixir-tesk2.cerit-sc.cz/>
+[depl-api-tesk-cerit-kubernetes]: <https://tesk-prod.cerit-sc.cz/>
 [depl-api-tesk-csc-openshift-2]: <https://csc-tesk.rahtiapp.fi/>
 [depl-api-tesk-ebi-kubernetes]: <https://tes1.tsi.ebi.ac.uk/tes>
 [depl-api-testribute-csc-openshift]: <http://testribute.rahtiapp.fi/>
 [depl-api-trs-filer-csc-openshift]: <https://trs-filer-test.rahtiapp.fi/ga4gh/trs/v2/>
 [depl-ui-cloud-registry-csc-openshift]: <https://cloud-registry.rahtiapp.fi/ga4gh/registry/v1/ui/>
 [depl-ui-cwl-wes-athrc]: <https://wes.egci-endpoints.imsi.athenarc.gr/ga4gh/wes/v1/ui/>
+[depl-ui-cwl-wes-cerit]: <https://wes-prod.cerit-sc.cz/ga4gh/wes/v1/ui/>
 [depl-ui-cwl-wes-csc-openshift]: <https://wes.rahtiapp.fi/ga4gh/wes/v1/ui/>
 [depl-ui-cwl-wes-csc-rahti]: <https://csc-wes.rahtiapp.fi/ga4gh/wes/v1/ui/>
 [depl-ui-cwlab-dkfz-dev]: <https://cwlab.dev.krini.ingress.rancher.computational.bio/>
@@ -206,7 +210,7 @@ point, and abusers will be blocked.
 [depl-ui-pro-wes-csc-openshift]: <https://prowes.rahtiapp.fi/ga4gh/wes/v1/ui/>
 [depl-ui-pro-tes-csc-openshift]: <https://protes.rahtiapp.fi/ga4gh/tes/v1/ui/>
 [depl-ui-tesk-athrc-kubernetes]: <https://tesk-eu.egci-endpoints.imsi.athenarc.gr/>
-[depl-ui-tesk-cerit-kubernetes]: <https://elixir-tesk2.cerit-sc.cz/>
+[depl-ui-tesk-cerit-kubernetes]: <https://tesk-prod.cerit-sc.cz/swagger-ui.html>
 [depl-ui-tesk-csc-openshift-2]: <https://csc-tesk.rahtiapp.fi/>
 [depl-ui-tesk-ebi-kubernetes]: <https://tes1.tsi.ebi.ac.uk/tes>
 [depl-ui-testribute-csc-openshift]: <http://testribute.rahtiapp.fi/ui/>
