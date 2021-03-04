@@ -198,7 +198,7 @@ point, and abusers will be blocked.
 [depl-ui-mock-tes-ebi-kubernetes]: <https://tes1.tsi.ebi.ac.uk/mock/ga4gh/tes/v1/ui/>
 [depl-ui-pro-wes-csc-openshift]: <https://prowes.rahtiapp.fi/ga4gh/wes/v1/ui/>
 [depl-ui-pro-tes-csc-openshift]: <https://protes.rahtiapp.fi/ga4gh/tes/v1/ui/>
-[depl-ui-tesk-cerit-kubernetes]: <https://elixir-tesk2.cerit-sc.cz/>
+[depl-ui-tesk-cerit-kubernetes]: <https://tesk-prod.cerit-sc.cz/>
 [depl-ui-tesk-csc-openshift-2]: <https://csc-tesk.rahtiapp.fi/>
 [depl-ui-tesk-ebi-kubernetes]: <https://tes1.tsi.ebi.ac.uk/tes>
 [depl-ui-testribute-csc-openshift]: <http://testribute.rahtiapp.fi/ui/>
