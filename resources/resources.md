@@ -133,7 +133,7 @@ point, and abusers will be blocked.
 [badges-health-cwlab-dev]: <https://img.shields.io/website?url=https%3A%2F%2Fcwlab.dev.krini.ingress.rancher.computational.bio%2F>
 [badges-health-cwlab-master]: <https://img.shields.io/website?url=https%3A%2F%2Fcwlab.krini.ingress.rancher.computational.bio%2F>
 [badges-health-cwlab-test]: <https://img.shields.io/website?url=https%3A%2F%2Fcwlab.testing.krini.ingress.rancher.computational.bio%2F>
-[badges-health-drs-filer-csc-openshift]: <https://img.shields.io/website?url=https%3A%2F%2Fdrs-filer-test.c03.k8s-popup.csc.fi%2Fga4gh%2Fdrs%2Fv1%2Fui>
+[badges-health-drs-filer-csc-openshift]: <https://img.shields.io/website?url=https%3A%2F%2Fdrs-filer-test.rahtiapp.fi%2Fga4gh%2Fdrs%2Fv1%2Fui>
 [badges-health-mock-drs-bz-compose]: <https://img.shields.io/website?url=http%3A%2F%2F131.152.229.71%2Fga4gh%2Fdrs%2Fv1%2Fui>
 [badges-health-mock-tes-bz-compose]: <https://img.shields.io/website?url=http%3A%2F%2F131.152.229.70%2Fga4gh%2Ftes%2Fv1%2Fui>
 [badges-health-mock-tes-ebi-kubernetes]: <https://img.shields.io/website?url=https%3A%2F%2Ftes1.tsi.ebi.ac.uk%2Fmock%2Fga4gh%2Ftes%2Fv1%2Fui%2F>
