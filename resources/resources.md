@@ -196,7 +196,7 @@ point, and abusers will be blocked.
 [depl-api-testribute-csc-openshift]: <http://testribute.rahtiapp.fi/>
 [depl-api-trs-filer-csc-openshift]: <https://trs-filer-test.rahtiapp.fi/ga4gh/trs/v2/>
 [depl-ui-cloud-registry-csc-openshift]: <https://cloud-registry.rahtiapp.fi/ga4gh/registry/v1/ui/>
-[depl-ui-cwl-wes-athrc]: <https://wes.egci-endpoints.imsi.athenarc.gr/ga4gh/wes/v1/ui/>
+[depl-ui-cwl-wes-athrc]: <https://wes-eu.egci-endpoints.imsi.athenarc.gr/ga4gh/wes/v1/ui/>
 [depl-ui-cwl-wes-cerit]: <https://wes-prod.cerit-sc.cz/ga4gh/wes/v1/ui/>
 [depl-ui-cwl-wes-csc-openshift]: <https://wes.rahtiapp.fi/ga4gh/wes/v1/ui/>
 [depl-ui-cwl-wes-csc-rahti]: <https://csc-wes.rahtiapp.fi/ga4gh/wes/v1/ui/>
