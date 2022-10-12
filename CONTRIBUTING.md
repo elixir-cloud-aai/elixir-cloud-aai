@@ -76,22 +76,19 @@ want you to continue with something (which is of course totally fine!)
 [![logo-gsoc][logo-gsoc]][gsoc]
 
 Apart from casual or regular contributions through this GitHub organization,
-we are also a part of the [Global Alliance for Genomics and Health][ga4gh]
-[mentor organization][gsoc-ga4gh] during the [Google Summer of Code
-(GSoC)][gsoc]. Just follow the link and view the ideas list.
+we haved also mentored contributors during the [Google Summer of Code
+(GSoC)][gsoc] since 2019, as part of the [Global Alliance for Genomics and Health][ga4gh]
+[mentor organization][gsoc-ga4gh].
 
-Specifically, the following projects for **GSoC 2020** were proposed by us:
-
-- **Dynamically adding data to DRS**
-- **TESK: towards a federated compute infrastructure**
-
-_Feel free to apply - or even propose your own project!_ **(Deadline: March 31
-18:00 UTC)**
-
-A previous student has kicked off development of the following project during
-**GSoC 2019**:
-
-- [TEStribute][testribute] ([Vani's blog][gsoc-2019-vani])
+We have mentored a total of 8 students since 2019:
+- Vani Singh (2019)
+- Sartah Gupta (2020)
+- Akash Saini (2021)
+- Anurag Gupta (2021)
+- Vipul Chhabra (2021)
+- Ayush Kumar (2022)
+- Lakshya Garg (2022)
+- Suyash Gupta (2022)
 
 #### Hackathons
 
