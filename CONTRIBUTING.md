@@ -101,14 +101,16 @@ A previous student has kicked off development of the following project during
 You can also find us frequently at relevant hackathons. Here is a list of
 hackathons we currently plan to attend:
 
-- [DDBJ BioHackathon][bh-ddbj] in Hiroshima, Japan: September 6-12, 2020
-- [ELIXIR BioHackathon][bh-elixir] in Barcelona, Spain: November 9-13, 2020
+- [de.NBI][bh-denbi] in Wittenberg, Germany: December 12-16, 2022
+- [ELIXIR BioHackathon][bh-elixir] in Paris, France: November 7-11, 2022
 
 We have led projects during the following past hackathons:
 
 - DDBJ BioHackathon 2019 in Fukuoka, Japan
 - ELIXIR BioHackathon 2018 in Paris, France
 - ELIXIR BioHackathon 2019 in Paris, France
+- ELIXIR BioHackathon 2020 (virtual)
+- ELIXIR BioHackathon 2021 in Barcelona, Spain
 
 #### Contribute via GitHub
 
@@ -126,6 +128,7 @@ yourself?
 5. Start coding :)
 
 [bh-ddbj]: <http://www.biohackathon.org/>
+[bh-denbi]: <https://www.denbi.de/de-nbi-events/1454-biohackathon-germany>
 [bh-elixir]: <https://www.biohackathon-europe.org/>
 [cloud-computing]: <https://en.wikipedia.org/wiki/Cloud_computing>
 [code-of-conduct]: CODE_OF_CONDUCT.md
